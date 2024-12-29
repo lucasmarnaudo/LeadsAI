@@ -1,0 +1,36 @@
+# requirements.txt
+Flask==2.3.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+mysql-connector-python==8.1.3
+openai==0.27.8
+
+mi_proyecto/
+│
+├── app.py
+├── db_config.py
+├── html_extractor.py
+├── openai_helper.py
+├── response_formatter.py
+├── urlGoogleValidator.py
+├── url_checker.py
+├── keys.data
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── scripts.js
+│
+├── var/
+│   └── www/
+│       └── html/
+│           └── places/
+│           └── webpages/
+│
+├── requirements.txt
+│
+└── process.log

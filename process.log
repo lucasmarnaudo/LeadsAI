@@ -1,0 +1,1704 @@
+2024-11-29 10:40:35,806 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-11-29 10:40:35,806 - [33mPress CTRL+C to quit[0m
+2024-11-29 10:40:35,806 -  * Restarting with stat
+2024-11-29 10:40:36,039 -  * Debugger is active!
+2024-11-29 10:40:36,041 -  * Debugger PIN: 536-917-777
+2024-11-29 10:41:06,625 - http://www.wohntraum-by-stephie.de/: 200
+2024-11-29 10:41:09,951 - 192.168.2.219 - - [29/Nov/2024 10:41:09] "POST /buscar HTTP/1.1" 200 -
+2024-11-29 10:41:09,968 - 192.168.2.219 - - [29/Nov/2024 10:41:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-29 10:41:29,474 - https://www.wisecx.com/: 200
+2024-11-29 10:41:33,473 - 192.168.2.219 - - [29/Nov/2024 10:41:33] "POST /buscar HTTP/1.1" 200 -
+2024-11-29 10:41:33,486 - 192.168.2.219 - - [29/Nov/2024 10:41:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-29 11:00:29,193 - 192.168.2.219 - - [29/Nov/2024 11:00:29] "[33mPOST /contar HTTP/1.1[0m" 404 -
+2024-11-29 11:00:30,590 - 192.168.2.219 - - [29/Nov/2024 11:00:30] "[33mPOST /contar HTTP/1.1[0m" 404 -
+2024-11-29 11:00:31,727 - 192.168.2.219 - - [29/Nov/2024 11:00:31] "[33mPOST /contar HTTP/1.1[0m" 404 -
+2024-11-29 11:00:49,770 - 192.168.2.219 - - [29/Nov/2024 11:00:49] "[33mPOST /contar HTTP/1.1[0m" 404 -
+2024-11-29 11:02:49,366 - 192.168.2.219 - - [29/Nov/2024 11:02:49] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-11-29 11:03:31,185 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-11-29 11:03:31,234 -  * Restarting with stat
+2024-11-29 11:03:31,451 -  * Debugger is active!
+2024-11-29 11:03:31,452 -  * Debugger PIN: 536-917-777
+2024-11-29 11:03:49,074 - http://www.supermami.com.ar/: 200
+2024-11-29 11:03:54,759 - http://www.supermami.com.ar/: 200
+2024-11-29 11:04:02,520 - http://www.supermami.com.ar/: 200
+2024-11-29 11:04:12,752 - http://dinoonline.com.ar/: 200
+2024-11-29 11:04:18,217 - http://www.supermami.com.ar/: 200
+2024-11-29 11:04:26,467 - http://www.supermami.com.ar/: 200
+2024-11-29 11:04:29,359 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-11-29 11:04:30,359 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-11-29 11:04:31,359 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-11-29 11:04:32,360 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-11-29 11:04:33,360 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-11-29 11:04:34,360 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-11-29 11:04:38,458 - 192.168.2.219 - - [29/Nov/2024 11:04:38] "POST /buscar HTTP/1.1" 200 -
+2024-11-29 11:05:05,903 - https://www.wisecx.com/: 200
+2024-11-29 11:05:09,512 - 192.168.2.219 - - [29/Nov/2024 11:05:09] "POST /buscar HTTP/1.1" 200 -
+2024-11-29 11:05:09,543 - 192.168.2.219 - - [29/Nov/2024 11:05:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-29 11:05:10,243 - 192.168.2.219 - - [29/Nov/2024 11:05:10] "GET / HTTP/1.1" 200 -
+2024-11-29 11:05:10,254 - 192.168.2.219 - - [29/Nov/2024 11:05:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-29 11:05:12,554 - 192.168.2.219 - - [29/Nov/2024 11:05:12] "GET / HTTP/1.1" 200 -
+2024-11-29 11:05:12,561 - 192.168.2.219 - - [29/Nov/2024 11:05:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-29 11:05:21,743 - https://www.wisecx.com/: 200
+2024-11-29 11:05:23,740 - 192.168.2.219 - - [29/Nov/2024 11:05:23] "POST /buscar HTTP/1.1" 200 -
+2024-11-29 11:05:23,759 - 192.168.2.219 - - [29/Nov/2024 11:05:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-30 09:49:28,857 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.174:5000
+2024-11-30 09:49:28,857 - [33mPress CTRL+C to quit[0m
+2024-11-30 09:49:28,858 -  * Restarting with stat
+2024-11-30 09:49:29,090 -  * Debugger is active!
+2024-11-30 09:49:29,092 -  * Debugger PIN: 256-109-486
+2024-11-30 09:49:49,401 - 192.168.2.129 - - [30/Nov/2024 09:49:49] "GET / HTTP/1.1" 200 -
+2024-11-30 09:49:49,426 - 192.168.2.129 - - [30/Nov/2024 09:49:49] "GET /static/styles.css HTTP/1.1" 200 -
+2024-11-30 09:49:49,557 - 192.168.2.129 - - [30/Nov/2024 09:49:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-30 09:49:59,940 - https://www.wisecx.com/: 200
+2024-11-30 09:50:02,896 - 192.168.2.129 - - [30/Nov/2024 09:50:02] "POST /buscar HTTP/1.1" 200 -
+2024-11-30 09:50:02,921 - 192.168.2.129 - - [30/Nov/2024 09:50:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:30:07,673 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-02 14:30:07,674 - [33mPress CTRL+C to quit[0m
+2024-12-02 14:30:07,674 -  * Restarting with stat
+2024-12-02 14:30:07,925 -  * Debugger is active!
+2024-12-02 14:30:07,929 -  * Debugger PIN: 256-109-486
+2024-12-02 14:30:26,668 - http://www.supermami.com.ar/: 200
+2024-12-02 14:30:48,034 - http://www.supermami.com.ar/: 200
+2024-12-02 14:31:11,824 - http://dinoonline.com.ar/: 200
+2024-12-02 14:31:22,033 - http://www.supermami.com.ar/: 200
+2024-12-02 14:31:23,731 - 192.168.2.220 - - [02/Dec/2024 14:31:23] "GET / HTTP/1.1" 200 -
+2024-12-02 14:31:23,771 - 192.168.2.220 - - [02/Dec/2024 14:31:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:31:24,143 - https://www.wisecx.com/: 200
+2024-12-02 14:31:27,470 - 192.168.2.220 - - [02/Dec/2024 14:31:27] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:31:32,016 - 192.168.2.220 - - [02/Dec/2024 14:31:32] "GET / HTTP/1.1" 200 -
+2024-12-02 14:31:32,065 - 192.168.2.220 - - [02/Dec/2024 14:31:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:31:35,030 - http://www.supermami.com.ar/: 200
+2024-12-02 14:31:35,254 - 192.168.2.220 - - [02/Dec/2024 14:31:35] "GET / HTTP/1.1" 200 -
+2024-12-02 14:31:35,264 - 192.168.2.220 - - [02/Dec/2024 14:31:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:31:36,006 - 192.168.2.220 - - [02/Dec/2024 14:31:36] "GET / HTTP/1.1" 200 -
+2024-12-02 14:31:36,015 - 192.168.2.220 - - [02/Dec/2024 14:31:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:31:37,829 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-02 14:31:38,829 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-02 14:31:39,830 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-02 14:31:40,831 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-02 14:31:41,831 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-02 14:31:42,832 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-02 14:31:45,074 - https://www.wisecx.com/: 200
+2024-12-02 14:31:46,691 - 192.168.2.220 - - [02/Dec/2024 14:31:46] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:31:48,773 - 192.168.2.220 - - [02/Dec/2024 14:31:48] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:31:48,803 - 192.168.2.220 - - [02/Dec/2024 14:31:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:40:02,175 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-02 14:40:02,175 - [33mPress CTRL+C to quit[0m
+2024-12-02 14:40:02,175 -  * Restarting with stat
+2024-12-02 14:40:02,437 -  * Debugger is active!
+2024-12-02 14:40:02,439 -  * Debugger PIN: 256-109-486
+2024-12-02 14:40:16,476 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 14:40:16,525 -  * Restarting with stat
+2024-12-02 14:40:16,735 -  * Debugger is active!
+2024-12-02 14:40:16,736 -  * Debugger PIN: 256-109-486
+2024-12-02 14:40:40,371 - https://www.wisecx.com/: 200
+2024-12-02 14:40:45,567 - 192.168.2.220 - - [02/Dec/2024 14:40:45] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:51:59,705 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 14:51:59,757 -  * Restarting with stat
+2024-12-02 14:51:59,980 -  * Debugger is active!
+2024-12-02 14:51:59,984 -  * Debugger PIN: 256-109-486
+2024-12-02 14:52:46,631 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 14:52:55,136 - https://www.1azimmer.de/: 200
+2024-12-02 14:52:58,140 - 192.168.2.220 - - [02/Dec/2024 14:52:58] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:55:14,549 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 14:55:18,390 - https://www.1azimmer.de/: 200
+2024-12-02 14:55:18,395 - 192.168.2.220 - - [02/Dec/2024 14:55:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:55:49,608 - 192.168.2.220 - - [02/Dec/2024 14:55:49] "GET / HTTP/1.1" 200 -
+2024-12-02 14:55:49,626 - 192.168.2.220 - - [02/Dec/2024 14:55:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:56:01,986 - https://www.wisecx.com/: 200
+2024-12-02 14:56:01,992 - 192.168.2.220 - - [02/Dec/2024 14:56:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:56:02,014 - 192.168.2.220 - - [02/Dec/2024 14:56:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 14:58:48,433 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 14:58:48,490 -  * Restarting with stat
+2024-12-02 14:58:48,718 -  * Debugger is active!
+2024-12-02 14:58:48,720 -  * Debugger PIN: 256-109-486
+2024-12-02 14:59:06,231 - https://www.wisecx.com/: 200
+2024-12-02 14:59:06,242 - 192.168.2.220 - - [02/Dec/2024 14:59:06] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 14:59:06,263 - 192.168.2.220 - - [02/Dec/2024 14:59:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 15:00:09,059 - https://www.wisecx.com/: 200
+2024-12-02 15:00:12,260 - 192.168.2.220 - - [02/Dec/2024 15:00:12] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:00:12,276 - 192.168.2.220 - - [02/Dec/2024 15:00:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 15:00:31,208 - https://www.wisecx.com/: 200
+2024-12-02 15:00:31,213 - 192.168.2.220 - - [02/Dec/2024 15:00:31] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:00:31,233 - 192.168.2.220 - - [02/Dec/2024 15:00:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 15:02:59,028 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-02 15:02:59,028 - [33mPress CTRL+C to quit[0m
+2024-12-02 15:02:59,028 -  * Restarting with stat
+2024-12-02 15:02:59,266 -  * Debugger is active!
+2024-12-02 15:02:59,268 -  * Debugger PIN: 256-109-486
+2024-12-02 15:12:30,339 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-02 15:12:30,340 - [33mPress CTRL+C to quit[0m
+2024-12-02 15:12:30,340 -  * Restarting with stat
+2024-12-02 15:12:30,635 -  * Debugger is active!
+2024-12-02 15:12:30,637 -  * Debugger PIN: 256-109-486
+2024-12-02 15:12:39,036 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 15:12:39,202 - 192.168.2.220 - - [02/Dec/2024 15:12:39] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-02 15:26:06,733 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 15:26:09,026 - https://wielandhausbau.de/: 200
+2024-12-02 15:26:11,449 - http://www.city-studios.de/: 200
+2024-12-02 15:26:12,143 - https://www.mein-schlafplatz.de/kontakt: 403
+2024-12-02 15:26:12,864 - https://www.habila.de/wohnen-assistenz/heidenheim/wohnangebote/wohn-haus-clichystra%C3%9Fe/: 200
+2024-12-02 15:26:14,526 - https://www.hueper.de/: 200
+2024-12-02 15:26:15,663 - https://www.baugesellschaft-heidenheim.de/: 403
+2024-12-02 15:26:16,271 - http://www.heidenheim.dhbw.de/: 200
+2024-12-02 15:26:20,693 - https://www.1azimmer.de/: 200
+2024-12-02 15:26:25,633 - https://www.wohnen-am-felsen.de/: 200
+2024-12-02 15:26:26,452 - https://www.awo-heidenheim.de/: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-02 15:26:27,588 - http://www.awo-heidenheim.de/: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-02 15:26:28,704 - http://www.awo-heidenheim.de/: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-02 15:26:29,825 - http://www.awo-heidenheim.de/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-02 15:26:33,426 - http://www.awo-heidenheim.de/home/: 404
+2024-12-02 15:26:33,563 - 192.168.2.220 - - [02/Dec/2024 15:26:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:32:11,866 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 15:32:11,931 -  * Restarting with stat
+2024-12-02 15:32:12,156 -  * Debugger is active!
+2024-12-02 15:32:12,157 -  * Debugger PIN: 256-109-486
+2024-12-02 15:32:31,832 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 15:32:35,926 - https://www.1azimmer.de/: 200
+2024-12-02 15:32:42,131 - 192.168.2.220 - - [02/Dec/2024 15:32:42] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:41:48,873 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 15:41:48,932 -  * Restarting with stat
+2024-12-02 15:41:49,163 -  * Debugger is active!
+2024-12-02 15:41:49,164 -  * Debugger PIN: 256-109-486
+2024-12-02 15:42:03,441 - 192.168.2.220 - - [02/Dec/2024 15:42:03] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:42:16,260 - 192.168.2.220 - - [02/Dec/2024 15:42:16] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:42:44,072 - 192.168.2.220 - - [02/Dec/2024 15:42:44] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:47:28,155 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 15:47:28,211 -  * Restarting with stat
+2024-12-02 15:47:28,433 -  * Debugger is active!
+2024-12-02 15:47:28,434 -  * Debugger PIN: 256-109-486
+2024-12-02 15:47:56,649 - 192.168.2.220 - - [02/Dec/2024 15:47:56] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 15:54:11,498 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 15:54:11,553 -  * Restarting with stat
+2024-12-02 15:57:57,770 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-02 15:57:57,770 - [33mPress CTRL+C to quit[0m
+2024-12-02 15:57:57,770 -  * Restarting with stat
+2024-12-02 15:57:58,007 -  * Debugger is active!
+2024-12-02 15:57:58,009 -  * Debugger PIN: 256-109-486
+2024-12-02 15:58:10,179 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 15:58:15,665 - https://www.1azimmer.de/: 200
+2024-12-02 15:58:18,499 - 192.168.2.220 - - [02/Dec/2024 15:58:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:01:15,982 - https://www.wisecx.com/: 200
+2024-12-02 16:01:18,452 - 192.168.2.220 - - [02/Dec/2024 16:01:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:04:45,215 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-02 16:04:45,296 -  * Restarting with stat
+2024-12-02 16:04:45,537 -  * Debugger is active!
+2024-12-02 16:04:45,539 -  * Debugger PIN: 256-109-486
+2024-12-02 16:04:56,899 - https://www.wisecx.com/: 200
+2024-12-02 16:04:59,488 - 192.168.2.220 - - [02/Dec/2024 16:04:59] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:05:34,764 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 16:05:34,911 - 192.168.2.220 - - [02/Dec/2024 16:05:34] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:06:04,947 - https://www.instagram.com/vidonbar: 200
+2024-12-02 16:06:07,113 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-02 16:06:10,251 - http://www.instagram.com/vidonbar: 200
+2024-12-02 16:06:11,203 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-02 16:06:12,203 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-02 16:06:13,204 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-02 16:06:14,204 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-02 16:06:15,205 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-02 16:06:16,208 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-02 16:06:17,341 - https://www.instagram.com/vidonbar/: 200
+2024-12-02 16:06:17,804 - 192.168.2.220 - - [02/Dec/2024 16:06:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:09:52,179 - 192.168.2.220 - - [02/Dec/2024 16:09:52] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:11:58,368 - http://www.parador.es/es/paradores/parador-de-cordoba?utm_source=GoogleMyBusiness&utm_medium=linkgoogle&utm_campaign=paradordecordoba&utm_term=organico&utm_content=ficha: 403
+2024-12-02 16:11:58,924 - 192.168.2.220 - - [02/Dec/2024 16:11:58] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:22:25,405 - 192.168.2.220 - - [02/Dec/2024 16:22:25] "GET / HTTP/1.1" 200 -
+2024-12-02 16:22:25,492 - 192.168.2.220 - - [02/Dec/2024 16:22:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 16:22:37,279 - https://www.wisecx.com/: 200
+2024-12-02 16:22:39,814 - 192.168.2.220 - - [02/Dec/2024 16:22:39] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:22:39,846 - 192.168.2.220 - - [02/Dec/2024 16:22:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-02 16:22:59,549 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-02 16:23:02,948 - 192.168.2.220 - - [02/Dec/2024 16:23:02] "POST /buscar HTTP/1.1" 200 -
+2024-12-02 16:23:02,964 - 192.168.2.220 - - [02/Dec/2024 16:23:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:52:16,112 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-03 16:52:16,113 - [33mPress CTRL+C to quit[0m
+2024-12-03 16:52:16,113 -  * Restarting with stat
+2024-12-03 16:52:16,362 -  * Debugger is active!
+2024-12-03 16:52:16,370 -  * Debugger PIN: 566-601-280
+2024-12-03 16:52:20,308 - 192.168.2.221 - - [03/Dec/2024 16:52:20] "GET / HTTP/1.1" 200 -
+2024-12-03 16:52:20,404 - 192.168.2.221 - - [03/Dec/2024 16:52:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:29,894 - 192.168.2.221 - - [03/Dec/2024 16:56:29] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:29,919 - 192.168.2.221 - - [03/Dec/2024 16:56:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:33,608 - 192.168.2.221 - - [03/Dec/2024 16:56:33] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:33,642 - 192.168.2.221 - - [03/Dec/2024 16:56:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:34,421 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:34,443 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:34,632 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:34,661 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:34,795 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:34,808 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:34,958 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:34,976 - 192.168.2.221 - - [03/Dec/2024 16:56:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:35,262 - 192.168.2.221 - - [03/Dec/2024 16:56:35] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:35,301 - 192.168.2.221 - - [03/Dec/2024 16:56:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:35,434 - 192.168.2.221 - - [03/Dec/2024 16:56:35] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:35,450 - 192.168.2.221 - - [03/Dec/2024 16:56:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:43,966 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-03 16:56:43,966 - [33mPress CTRL+C to quit[0m
+2024-12-03 16:56:43,967 -  * Restarting with stat
+2024-12-03 16:56:44,193 -  * Debugger is active!
+2024-12-03 16:56:44,195 -  * Debugger PIN: 566-601-280
+2024-12-03 16:56:46,164 - 192.168.2.221 - - [03/Dec/2024 16:56:46] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:46,212 - 192.168.2.221 - - [03/Dec/2024 16:56:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:46,890 - 192.168.2.221 - - [03/Dec/2024 16:56:46] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:46,915 - 192.168.2.221 - - [03/Dec/2024 16:56:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:47,328 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:47,345 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:47,472 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:47,486 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:47,632 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:47,644 - 192.168.2.221 - - [03/Dec/2024 16:56:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:56:54,572 - 192.168.2.221 - - [03/Dec/2024 16:56:54] "GET / HTTP/1.1" 200 -
+2024-12-03 16:56:54,585 - 192.168.2.221 - - [03/Dec/2024 16:56:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:57:02,557 - 192.168.2.221 - - [03/Dec/2024 16:57:02] "GET / HTTP/1.1" 200 -
+2024-12-03 16:57:02,568 - 192.168.2.221 - - [03/Dec/2024 16:57:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:57:03,714 - 192.168.2.221 - - [03/Dec/2024 16:57:03] "GET / HTTP/1.1" 200 -
+2024-12-03 16:57:03,726 - 192.168.2.221 - - [03/Dec/2024 16:57:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:57:08,729 - 192.168.2.221 - - [03/Dec/2024 16:57:08] "GET / HTTP/1.1" 200 -
+2024-12-03 16:57:08,741 - 192.168.2.221 - - [03/Dec/2024 16:57:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 16:58:02,502 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-03 16:58:02,737 -  * Restarting with stat
+2024-12-03 16:58:02,995 -  * Debugger is active!
+2024-12-03 16:58:02,996 -  * Debugger PIN: 566-601-280
+2024-12-03 16:59:00,968 - https://www.wisecx.com/: 200
+2024-12-03 16:59:03,714 - 192.168.2.221 - - [03/Dec/2024 16:59:03] "POST /buscar HTTP/1.1" 200 -
+2024-12-03 16:59:55,727 - https://www.falabella.com.pe/falabella-pe: 403
+2024-12-03 16:59:55,859 - 192.168.2.221 - - [03/Dec/2024 16:59:55] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-03 17:01:40,805 - 192.168.2.221 - - [03/Dec/2024 17:01:40] "GET / HTTP/1.1" 200 -
+2024-12-03 17:01:40,869 - 192.168.2.221 - - [03/Dec/2024 17:01:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-03 17:01:59,077 - https://www.instagram.com/vidonbar: 200
+2024-12-03 17:02:00,909 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-03 17:02:03,393 - http://www.instagram.com/vidonbar: 200
+2024-12-03 17:02:04,277 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-03 17:02:05,278 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-03 17:02:06,278 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-03 17:02:07,279 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-03 17:02:08,279 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-03 17:02:09,280 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-03 17:02:09,282 - 192.168.2.221 - - [03/Dec/2024 17:02:09] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-03 17:02:09,309 - 192.168.2.221 - - [03/Dec/2024 17:02:09] "GET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-03 17:02:09,310 - 192.168.2.221 - - [03/Dec/2024 17:02:09] "GET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-03 17:02:09,338 - 192.168.2.221 - - [03/Dec/2024 17:02:09] "GET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-03 17:05:42,299 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-03 17:05:42,377 -  * Restarting with stat
+2024-12-03 17:05:42,614 -  * Debugger is active!
+2024-12-03 17:05:42,615 -  * Debugger PIN: 566-601-280
+2024-12-03 17:05:51,621 - https://www.falabella.com.pe/falabella-pe: 403
+2024-12-03 17:05:52,235 - https://www.falabella.com.co/falabella-co/: 403
+2024-12-03 17:05:52,792 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230040: 403
+2024-12-03 17:05:53,214 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230044: 403
+2024-12-03 17:05:53,950 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230052: 403
+2024-12-03 17:05:55,403 - https://www.falabella.com.co/falabella-co/: 403
+2024-12-03 17:05:55,905 - https://www.wongnai.com/restaurants/374654vW-fallabella-river-front: 403
+2024-12-03 17:05:56,278 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230042: 403
+2024-12-03 17:05:57,802 - https://www.falabella.com.ar/falabella-ar/: 200
+2024-12-03 17:05:58,670 - https://www.falabella.com.co/falabella-co/: 403
+2024-12-03 17:05:59,197 - https://www.falabella.com.co/falabella-co/: 403
+2024-12-03 17:05:59,900 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230039: 403
+2024-12-03 17:06:02,590 - http://www.falabella.com.co/falabella-co/static/staticContent1.jsp?active=3&id=cat1981023: 403
+2024-12-03 17:06:04,140 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230045: 403
+2024-12-03 17:06:04,879 - https://www.falabella.com/falabella-cl/: 200
+2024-12-03 17:06:05,768 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230038: 403
+2024-12-03 17:06:10,687 - http://www.fallabella.de/kontakt.html: 200
+2024-12-03 17:06:12,079 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230051: 403
+2024-12-03 17:06:12,484 - https://tienda.falabella.com.co/falabella-co?eid=GMB20230041: 403
+2024-12-03 17:06:14,980 - https://tienda.falabella.com/falabella-cl: 200
+2024-12-03 17:06:16,141 - 192.168.2.221 - - [03/Dec/2024 17:06:16] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 07:38:22,966 - https://www.instagram.com/vidonbar: 200
+2024-12-04 07:38:25,312 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-04 07:38:26,304 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-04 07:38:27,305 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-04 07:38:28,306 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-04 07:38:29,306 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-04 07:38:30,306 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-04 07:38:31,307 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-04 07:38:32,054 - http://www.instagram.com/vidonbar: 200
+2024-12-04 07:38:33,350 - https://www.instagram.com/vidonbar/: 200
+2024-12-04 07:38:33,885 - 192.168.2.221 - - [04/Dec/2024 07:38:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:31:47,065 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-04 12:31:47,065 - [33mPress CTRL+C to quit[0m
+2024-12-04 12:31:47,066 -  * Restarting with stat
+2024-12-04 12:31:47,301 -  * Debugger is active!
+2024-12-04 12:31:47,304 -  * Debugger PIN: 536-917-777
+2024-12-04 12:31:48,103 - 192.168.2.221 - - [04/Dec/2024 12:31:48] "GET / HTTP/1.1" 200 -
+2024-12-04 12:31:48,175 - 192.168.2.221 - - [04/Dec/2024 12:31:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 12:32:36,127 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-04 12:32:36,384 - 192.168.2.221 - - [04/Dec/2024 12:32:36] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:33:35,185 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-04 12:33:39,177 - 192.168.2.221 - - [04/Dec/2024 12:33:39] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:33:39,229 - 192.168.2.221 - - [04/Dec/2024 12:33:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 12:34:16,561 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-04 12:34:16,851 - 192.168.2.221 - - [04/Dec/2024 12:34:16] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:34:16,872 - 192.168.2.221 - - [04/Dec/2024 12:34:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 12:34:44,184 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-04 12:34:44,189 - 192.168.2.221 - - [04/Dec/2024 12:34:44] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:34:44,212 - 192.168.2.221 - - [04/Dec/2024 12:34:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 12:50:48,774 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-04 12:50:48,774 - [33mPress CTRL+C to quit[0m
+2024-12-04 12:50:48,775 -  * Restarting with stat
+2024-12-04 12:50:49,014 -  * Debugger is active!
+2024-12-04 12:50:49,016 -  * Debugger PIN: 536-917-777
+2024-12-04 12:50:53,024 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-04 12:50:53,032 - 192.168.2.221 - - [04/Dec/2024 12:50:53] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:50:53,071 - 192.168.2.221 - - [04/Dec/2024 12:50:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 12:51:14,139 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-04 12:51:19,266 - https://www.instagram.com/vidonbar: 200
+2024-12-04 12:51:24,817 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-04 12:51:25,817 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-04 12:51:26,817 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-04 12:51:27,819 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-04 12:51:28,819 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-04 12:51:29,820 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-04 12:51:34,023 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-04 12:51:35,024 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-04 12:51:36,024 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-04 12:51:37,024 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-04 12:51:38,025 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-04 12:51:39,025 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-04 12:51:43,884 - http://www.instagram.com/vidonbar: 200
+2024-12-04 12:51:48,498 - https://www.instagram.com/vidonbar/: 200
+2024-12-04 12:51:54,019 - 192.168.2.221 - - [04/Dec/2024 12:51:54] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 12:51:54,084 - 192.168.2.221 - - [04/Dec/2024 12:51:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-04 13:17:06,771 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-04 13:17:06,771 - [33mPress CTRL+C to quit[0m
+2024-12-04 13:17:06,772 -  * Restarting with stat
+2024-12-04 13:17:07,000 -  * Debugger is active!
+2024-12-04 13:17:07,004 -  * Debugger PIN: 536-917-777
+2024-12-04 13:22:09,115 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-04 13:22:09,191 -  * Restarting with stat
+2024-12-04 13:22:09,424 -  * Debugger is active!
+2024-12-04 13:22:09,425 -  * Debugger PIN: 536-917-777
+2024-12-04 13:22:37,348 - https://immowohntraum.de/: 200
+2024-12-04 13:22:39,492 - http://www.wohntraum-ulm.de/: 200
+2024-12-04 13:22:40,260 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-04 13:22:41,277 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-04 13:22:42,297 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-04 13:22:43,322 - http://www.wohntraumgmbh.com/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-04 13:22:44,342 - http://www.wohntraumgmbh.com/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-04 13:22:45,409 - http://wohntraumgmbh.com/home/: URL final con "." debido a múltiples fallos en la validación: HTTPConnectionPool(host='wohntraumgmbh.com', port=80): Max retries exceeded with url: /home/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xfa79ea518b00>: Failed to resolve 'wohntraumgmbh.com' ([Errno -5] No address associated with hostname)")) (Final attempt)
+2024-12-04 13:22:45,443 - 192.168.2.221 - - [04/Dec/2024 13:22:45] "POST /buscar HTTP/1.1" 200 -
+2024-12-04 13:22:45,510 - 192.168.2.221 - - [04/Dec/2024 13:22:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 15:03:28,612 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 15:03:28,613 - [33mPress CTRL+C to quit[0m
+2024-12-05 15:03:28,614 -  * Restarting with stat
+2024-12-05 15:03:29,032 -  * Debugger is active!
+2024-12-05 15:03:29,040 -  * Debugger PIN: 780-598-548
+2024-12-05 15:03:39,089 - 192.168.2.221 - - [05/Dec/2024 15:03:39] "GET / HTTP/1.1" 200 -
+2024-12-05 15:03:39,175 - 192.168.2.221 - - [05/Dec/2024 15:03:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 15:03:44,246 - 192.168.2.221 - - [05/Dec/2024 15:03:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 15:17:36,137 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 15:17:36,137 - [33mPress CTRL+C to quit[0m
+2024-12-05 15:17:36,137 -  * Restarting with stat
+2024-12-05 15:17:36,398 -  * Debugger is active!
+2024-12-05 15:17:36,400 -  * Debugger PIN: 780-598-548
+2024-12-05 15:17:41,415 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-05 15:17:41,462 -  * Restarting with stat
+2024-12-05 15:20:53,828 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 15:20:53,828 - [33mPress CTRL+C to quit[0m
+2024-12-05 15:20:53,829 -  * Restarting with stat
+2024-12-05 15:20:54,083 -  * Debugger is active!
+2024-12-05 15:20:54,087 -  * Debugger PIN: 780-598-548
+2024-12-05 15:21:26,671 - 192.168.2.221 - - [05/Dec/2024 15:21:26] "GET / HTTP/1.1" 200 -
+2024-12-05 15:21:26,704 - 192.168.2.221 - - [05/Dec/2024 15:21:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 15:22:06,116 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 15:22:07,139 - 192.168.2.221 - - [05/Dec/2024 15:22:07] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-05 15:22:07,186 - 192.168.2.221 - - [05/Dec/2024 15:22:07] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:22:07,187 - 192.168.2.221 - - [05/Dec/2024 15:22:07] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:22:07,221 - 192.168.2.221 - - [05/Dec/2024 15:22:07] "GET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-05 15:22:07,284 - 192.168.2.221 - - [05/Dec/2024 15:22:07] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 15:24:17,668 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-05 15:24:17,756 -  * Restarting with stat
+2024-12-05 15:24:18,029 -  * Debugger is active!
+2024-12-05 15:24:18,033 -  * Debugger PIN: 780-598-548
+2024-12-05 15:24:28,122 - 192.168.2.221 - - [05/Dec/2024 15:24:28] "GET / HTTP/1.1" 200 -
+2024-12-05 15:24:28,241 - 192.168.2.221 - - [05/Dec/2024 15:24:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 15:24:42,093 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 15:24:43,244 - 192.168.2.221 - - [05/Dec/2024 15:24:43] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-05 15:24:43,328 - 192.168.2.221 - - [05/Dec/2024 15:24:43] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:24:43,334 - 192.168.2.221 - - [05/Dec/2024 15:24:43] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:24:43,346 - 192.168.2.221 - - [05/Dec/2024 15:24:43] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:26:27,669 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-05 15:26:27,742 -  * Restarting with stat
+2024-12-05 15:26:28,204 -  * Debugger is active!
+2024-12-05 15:26:28,208 -  * Debugger PIN: 780-598-548
+2024-12-05 15:26:40,767 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 15:26:41,783 - 192.168.2.221 - - [05/Dec/2024 15:26:41] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-05 15:26:41,803 - 192.168.2.221 - - [05/Dec/2024 15:26:41] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:26:41,813 - 192.168.2.221 - - [05/Dec/2024 15:26:41] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:26:41,820 - 192.168.2.221 - - [05/Dec/2024 15:26:41] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:33:04,221 -  * Detected change in '/home/lucasmarnaudo/leadsai/html_extractor.py', reloading
+2024-12-05 15:33:04,400 -  * Restarting with stat
+2024-12-05 15:33:05,105 -  * Debugger is active!
+2024-12-05 15:33:05,117 -  * Debugger PIN: 780-598-548
+2024-12-05 15:38:36,881 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-05 15:38:37,144 -  * Restarting with stat
+2024-12-05 15:38:38,389 -  * Debugger is active!
+2024-12-05 15:38:38,393 -  * Debugger PIN: 780-598-548
+2024-12-05 15:39:09,419 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 15:39:09,429 - 192.168.2.221 - - [05/Dec/2024 15:39:09] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-05 15:39:09,469 - 192.168.2.221 - - [05/Dec/2024 15:39:09] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:39:09,538 - 192.168.2.221 - - [05/Dec/2024 15:39:09] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:39:09,557 - 192.168.2.221 - - [05/Dec/2024 15:39:09] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:45:36,289 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-05 15:45:36,447 -  * Restarting with stat
+2024-12-05 15:45:36,705 -  * Debugger is active!
+2024-12-05 15:45:36,706 -  * Debugger PIN: 780-598-548
+2024-12-05 15:45:51,119 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 15:45:51,977 - https://www.instagram.com/vidonbar: 200
+2024-12-05 15:45:51,982 - 192.168.2.221 - - [05/Dec/2024 15:45:51] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-05 15:45:52,007 - 192.168.2.221 - - [05/Dec/2024 15:45:52] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:45:52,007 - 192.168.2.221 - - [05/Dec/2024 15:45:52] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:45:52,014 - 192.168.2.221 - - [05/Dec/2024 15:45:52] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 16:02:07,113 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 16:02:07,113 - [33mPress CTRL+C to quit[0m
+2024-12-05 16:02:07,113 -  * Restarting with stat
+2024-12-05 16:02:07,368 -  * Debugger is active!
+2024-12-05 16:02:07,373 -  * Debugger PIN: 780-598-548
+2024-12-05 16:02:15,184 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 16:02:16,099 - https://www.instagram.com/vidonbar: 200
+2024-12-05 16:02:16,853 - http://www.instagram.com/vidonbar: 200
+2024-12-05 16:02:17,083 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:02:18,084 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:02:19,084 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:02:20,084 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:02:21,086 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:02:22,086 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:02:22,414 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:02:23,415 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:02:24,415 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:02:25,415 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:02:26,416 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:02:27,416 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:02:28,220 - https://www.instagram.com/vidonbar/: 200
+2024-12-05 16:02:40,430 - https://www.wisecx.com/: 200
+2024-12-05 16:02:40,508 - 192.168.2.221 - - [05/Dec/2024 16:02:40] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:02:40,577 - 192.168.2.221 - - [05/Dec/2024 16:02:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:10:26,197 -  * Detected change in '/home/lucasmarnaudo/leadsai/urlGoogleValidator.py', reloading
+2024-12-05 16:10:26,262 -  * Restarting with stat
+2024-12-05 16:10:26,529 -  * Debugger is active!
+2024-12-05 16:10:26,532 -  * Debugger PIN: 780-598-548
+2024-12-05 16:28:42,559 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 16:28:42,560 - [33mPress CTRL+C to quit[0m
+2024-12-05 16:28:42,560 -  * Restarting with stat
+2024-12-05 16:28:42,898 -  * Debugger is active!
+2024-12-05 16:28:42,900 -  * Debugger PIN: 780-598-548
+2024-12-05 16:29:08,495 - https://www.wisecx.com/: 200
+2024-12-05 16:29:10,635 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-05 16:29:11,571 - https://www.instagram.com/vidonbar: 200
+2024-12-05 16:29:12,562 - http://www.instagram.com/vidonbar: 200
+2024-12-05 16:29:12,815 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:29:13,815 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:29:14,816 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:29:15,817 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:29:16,818 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:29:17,818 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:29:18,164 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:29:19,165 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:29:20,165 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:29:21,165 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:29:22,166 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:29:23,167 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:29:24,059 - https://www.instagram.com/vidonbar/: 200
+2024-12-05 16:29:24,140 - 192.168.2.221 - - [05/Dec/2024 16:29:24] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:29:24,165 - 192.168.2.221 - - [05/Dec/2024 16:29:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:33:23,205 - https://www.wisecx.com/: 200
+2024-12-05 16:33:26,621 - https://www.wisecx.com/: 200
+2024-12-05 16:33:26,704 - 192.168.2.221 - - [05/Dec/2024 16:33:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:33:26,732 - 192.168.2.221 - - [05/Dec/2024 16:33:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:46:30,955 - https://www.wisecx.com/: 200
+2024-12-05 16:46:34,206 - https://www.wisecx.com/: 200
+2024-12-05 16:46:34,286 - 192.168.2.221 - - [05/Dec/2024 16:46:34] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:46:34,307 - 192.168.2.221 - - [05/Dec/2024 16:46:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:47:05,144 - https://immowohntraum.de/: 200
+2024-12-05 16:47:06,998 - http://www.wohntraum-ulm.de/: 200
+2024-12-05 16:47:07,572 - https://wohntraum-immobilien-eg.de/: 200
+2024-12-05 16:47:08,271 - https://wohnraum-wohntraum.com/: 200
+2024-12-05 16:47:09,737 - http://www.wohntraum.immobilien/: 200
+2024-12-05 16:47:10,078 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:47:11,095 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:47:12,122 - http://www.wohntraumgmbh.com/: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:47:13,146 - http://www.wohntraumgmbh.com/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:47:14,164 - http://www.wohntraumgmbh.com/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:47:15,220 - http://wohntraumgmbh.com/home/: URL final con "." debido a múltiples fallos en la validación: HTTPConnectionPool(host='wohntraumgmbh.com', port=80): Max retries exceeded with url: /home/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf34fffb4a2a0>: Failed to resolve 'wohntraumgmbh.com' ([Errno -5] No address associated with hostname)")) (Final attempt)
+2024-12-05 16:47:15,698 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-05 16:47:17,177 - http://www.wohntraum-gmbh.de/: 200
+2024-12-05 16:47:18,275 - http://wohnraum-heilbronn.de/: 200
+2024-12-05 16:47:18,894 - https://www.wohntraumfinder.com/: 200
+2024-12-05 16:47:19,570 - https://www.wohntraum-holz.de/: 200
+2024-12-05 16:47:19,948 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:47:20,948 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:47:21,949 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:47:22,949 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:47:23,950 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:47:24,950 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:47:25,341 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:47:26,341 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:47:27,341 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:47:28,346 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:47:29,347 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:47:30,347 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:47:30,949 - https://www.1001wohntraum.de/: 200
+2024-12-05 16:47:34,035 - http://www.meinwohntraum.ch/: 200
+2024-12-05 16:47:34,791 - http://www.vs-wohntraum-immobilien.de/: 200
+2024-12-05 16:47:35,523 - https://www.w-raum.com/: 200
+2024-12-05 16:47:37,155 - http://www.cafewohnraum.de/: 200
+2024-12-05 16:47:37,659 - http://www.mywohntraum.com/kontakt/: 503
+2024-12-05 16:47:37,786 - 192.168.2.221 - - [05/Dec/2024 16:47:37] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:47:37,843 - 192.168.2.221 - - [05/Dec/2024 16:47:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:50:06,271 - https://www.wisecx.com/: 200
+2024-12-05 16:50:06,392 - 192.168.2.221 - - [05/Dec/2024 16:50:06] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:50:06,407 - 192.168.2.221 - - [05/Dec/2024 16:50:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:51:31,351 -  * Detected change in '/home/lucasmarnaudo/leadsai/urlGoogleValidator.py', reloading
+2024-12-05 16:51:31,426 -  * Restarting with stat
+2024-12-05 16:51:31,675 -  * Debugger is active!
+2024-12-05 16:51:31,676 -  * Debugger PIN: 780-598-548
+2024-12-05 16:51:47,875 - https://www.wisecx.com/: 200
+2024-12-05 16:51:48,240 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:51:49,241 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:51:50,242 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:51:51,243 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:51:52,267 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:51:53,268 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:51:53,606 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:51:54,607 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:51:55,607 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:51:56,607 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:51:57,608 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:51:58,608 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:51:58,985 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-05 16:51:59,985 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-05 16:52:00,985 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-05 16:52:01,986 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-05 16:52:02,986 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-05 16:52:03,986 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-05 16:52:04,130 - 192.168.2.221 - - [05/Dec/2024 16:52:04] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:52:04,166 - 192.168.2.221 - - [05/Dec/2024 16:52:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 16:54:14,711 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-05 16:54:15,570 - http://wohnwerte-hdh.de/: 403
+2024-12-05 16:54:17,561 - https://www.ev-heimstiftung.de/heidenheim-residenz-stadtwaage/: 200
+2024-12-05 16:54:18,464 - https://www.wohnen-am-felsen.de/: 200
+2024-12-05 16:54:20,828 - https://www.ev-heimstiftung.de/tagespflege-heidenheim-stadtwaage/: 200
+2024-12-05 16:54:22,556 - https://www.ev-heimstiftung.de/heidenheim-mobile-dienste-heidenheim/: 200
+2024-12-05 16:54:22,685 - 192.168.2.221 - - [05/Dec/2024 16:54:22] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 16:54:22,708 - 192.168.2.221 - - [05/Dec/2024 16:54:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 17:00:56,883 -  * Detected change in '/home/lucasmarnaudo/leadsai/urlGoogleValidator.py', reloading
+2024-12-05 17:00:56,952 -  * Restarting with stat
+2024-12-05 17:00:57,190 -  * Debugger is active!
+2024-12-05 17:00:57,191 -  * Debugger PIN: 780-598-548
+2024-12-05 17:01:13,880 - https://www.wisecx.com/: 200
+2024-12-05 17:01:14,116 - 192.168.2.221 - - [05/Dec/2024 17:01:14] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 17:01:14,171 - 192.168.2.221 - - [05/Dec/2024 17:01:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 17:09:09,281 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-05 17:09:09,281 - [33mPress CTRL+C to quit[0m
+2024-12-05 17:09:09,282 -  * Restarting with stat
+2024-12-05 17:09:09,536 -  * Debugger is active!
+2024-12-05 17:09:09,538 -  * Debugger PIN: 780-598-548
+2024-12-05 17:09:26,838 - https://www.wisecx.com/: 200
+2024-12-05 17:09:26,935 - 192.168.2.221 - - [05/Dec/2024 17:09:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 17:09:26,963 - 192.168.2.221 - - [05/Dec/2024 17:09:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-05 17:10:09,622 - https://www.wisecx.com/: 200
+2024-12-05 17:10:09,739 - 192.168.2.221 - - [05/Dec/2024 17:10:09] "POST /buscar HTTP/1.1" 200 -
+2024-12-05 17:10:09,774 - 192.168.2.221 - - [05/Dec/2024 17:10:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-06 17:11:40,588 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-06 17:11:40,589 - [33mPress CTRL+C to quit[0m
+2024-12-06 17:11:40,589 -  * Restarting with stat
+2024-12-06 17:11:40,831 -  * Debugger is active!
+2024-12-06 17:11:40,835 -  * Debugger PIN: 536-917-777
+2024-12-06 17:11:55,318 - https://www.wisecx.com/: 200
+2024-12-06 17:11:55,412 - 192.168.2.221 - - [06/Dec/2024 17:11:55] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:11:55,437 - 192.168.2.221 - - [06/Dec/2024 17:11:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-06 17:18:39,973 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-06 17:18:39,973 - [33mPress CTRL+C to quit[0m
+2024-12-06 17:18:39,973 -  * Restarting with stat
+2024-12-06 17:18:40,220 -  * Debugger is active!
+2024-12-06 17:18:40,222 -  * Debugger PIN: 536-917-777
+2024-12-06 17:18:53,393 - https://www.wisecx.com/: 200
+2024-12-06 17:18:53,606 - 192.168.2.221 - - [06/Dec/2024 17:18:53] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:18:53,627 - 192.168.2.221 - - [06/Dec/2024 17:18:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-06 17:20:30,257 - 192.168.2.221 - - [06/Dec/2024 17:20:30] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:20:41,667 - 192.168.2.221 - - [06/Dec/2024 17:20:41] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:22:53,977 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:22:54,052 -  * Restarting with stat
+2024-12-06 17:22:54,368 -  * Debugger is active!
+2024-12-06 17:22:54,370 -  * Debugger PIN: 536-917-777
+2024-12-06 17:22:58,485 - 192.168.2.221 - - [06/Dec/2024 17:22:58] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:23:37,832 - 192.168.2.221 - - [06/Dec/2024 17:23:37] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:25:27,819 - https://www.wisecx.com/: 200
+2024-12-06 17:25:28,053 - 192.168.2.221 - - [06/Dec/2024 17:25:28] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:34:38,002 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-06 17:34:38,002 - [33mPress CTRL+C to quit[0m
+2024-12-06 17:34:38,002 -  * Restarting with stat
+2024-12-06 17:34:38,239 -  * Debugger is active!
+2024-12-06 17:34:38,240 -  * Debugger PIN: 536-917-777
+2024-12-06 17:34:48,080 - https://www.wisecx.com/: 200
+2024-12-06 17:34:48,315 - 192.168.2.221 - - [06/Dec/2024 17:34:48] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:34:48,332 - 192.168.2.221 - - [06/Dec/2024 17:34:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-06 17:35:18,112 - https://www.wisecx.com/: 200
+2024-12-06 17:35:18,318 - 192.168.2.221 - - [06/Dec/2024 17:35:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 17:39:28,999 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 17:39:29,094 -  * Restarting with stat
+2024-12-06 17:39:29,378 -  * Debugger is active!
+2024-12-06 17:39:29,380 -  * Debugger PIN: 536-917-777
+2024-12-06 17:40:45,675 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:40:45,733 -  * Restarting with stat
+2024-12-06 17:40:45,959 -  * Debugger is active!
+2024-12-06 17:40:45,961 -  * Debugger PIN: 536-917-777
+2024-12-06 17:40:56,337 - https://www.wisecx.com/: 200
+2024-12-06 17:40:56,551 - 192.168.2.221 - - [06/Dec/2024 17:40:56] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:41:43,995 - https://www.wisecx.com/: 200
+2024-12-06 17:41:44,312 - 192.168.2.221 - - [06/Dec/2024 17:41:44] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:41:44,382 - 192.168.2.221 - - [06/Dec/2024 17:41:44] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:41:44,386 - 192.168.2.221 - - [06/Dec/2024 17:41:44] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:41:44,396 - 192.168.2.221 - - [06/Dec/2024 17:41:44] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:41:44,450 - 192.168.2.221 - - [06/Dec/2024 17:41:44] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 17:42:18,290 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:42:18,353 -  * Restarting with stat
+2024-12-06 17:42:18,586 -  * Debugger is active!
+2024-12-06 17:42:18,587 -  * Debugger PIN: 536-917-777
+2024-12-06 17:42:28,369 - https://www.wisecx.com/: 200
+2024-12-06 17:42:28,580 - 192.168.2.221 - - [06/Dec/2024 17:42:28] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:42:28,603 - 192.168.2.221 - - [06/Dec/2024 17:42:28] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:42:28,605 - 192.168.2.221 - - [06/Dec/2024 17:42:28] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:42:28,611 - 192.168.2.221 - - [06/Dec/2024 17:42:28] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:42:28,630 - 192.168.2.221 - - [06/Dec/2024 17:42:28] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 17:46:15,400 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:46:15,467 -  * Restarting with stat
+2024-12-06 17:46:15,708 -  * Debugger is active!
+2024-12-06 17:46:15,710 -  * Debugger PIN: 536-917-777
+2024-12-06 17:46:27,146 - https://www.wisecx.com/: 200
+2024-12-06 17:46:27,361 - 192.168.2.221 - - [06/Dec/2024 17:46:27] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:46:27,385 - 192.168.2.221 - - [06/Dec/2024 17:46:27] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:46:27,388 - 192.168.2.221 - - [06/Dec/2024 17:46:27] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:46:27,396 - 192.168.2.221 - - [06/Dec/2024 17:46:27] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:46:27,405 - 192.168.2.221 - - [06/Dec/2024 17:46:27] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 17:51:56,759 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:51:56,824 -  * Restarting with stat
+2024-12-06 17:51:57,062 -  * Debugger is active!
+2024-12-06 17:51:57,064 -  * Debugger PIN: 536-917-777
+2024-12-06 17:52:06,517 - https://www.wisecx.com/: 200
+2024-12-06 17:52:06,720 - 192.168.2.221 - - [06/Dec/2024 17:52:06] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:53:20,334 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:53:20,417 -  * Restarting with stat
+2024-12-06 17:53:20,685 -  * Debugger is active!
+2024-12-06 17:53:20,686 -  * Debugger PIN: 536-917-777
+2024-12-06 17:53:29,059 - https://www.wisecx.com/: 200
+2024-12-06 17:53:29,272 - 192.168.2.221 - - [06/Dec/2024 17:53:29] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:54:05,795 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:54:05,848 -  * Restarting with stat
+2024-12-06 17:54:06,073 -  * Debugger is active!
+2024-12-06 17:54:06,075 -  * Debugger PIN: 536-917-777
+2024-12-06 17:54:15,013 - https://www.wisecx.com/: 200
+2024-12-06 17:54:15,238 - 192.168.2.221 - - [06/Dec/2024 17:54:15] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:54:23,637 - https://www.wisecx.com/: 200
+2024-12-06 17:54:23,836 - 192.168.2.221 - - [06/Dec/2024 17:54:23] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:54:23,874 - 192.168.2.221 - - [06/Dec/2024 17:54:23] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:54:23,876 - 192.168.2.221 - - [06/Dec/2024 17:54:23] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:54:23,880 - 192.168.2.221 - - [06/Dec/2024 17:54:23] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:54:23,899 - 192.168.2.221 - - [06/Dec/2024 17:54:23] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 17:56:42,541 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:56:42,612 -  * Restarting with stat
+2024-12-06 17:56:42,847 -  * Debugger is active!
+2024-12-06 17:56:42,849 -  * Debugger PIN: 536-917-777
+2024-12-06 17:56:52,962 - https://www.wisecx.com/: 200
+2024-12-06 17:56:53,165 - 192.168.2.221 - - [06/Dec/2024 17:56:53] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:56:53,206 - 192.168.2.221 - - [06/Dec/2024 17:56:53] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:56:53,208 - 192.168.2.221 - - [06/Dec/2024 17:56:53] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:56:53,212 - 192.168.2.221 - - [06/Dec/2024 17:56:53] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:56:53,234 - 192.168.2.221 - - [06/Dec/2024 17:56:53] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 17:59:26,485 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 17:59:26,557 -  * Restarting with stat
+2024-12-06 17:59:26,794 -  * Debugger is active!
+2024-12-06 17:59:26,795 -  * Debugger PIN: 536-917-777
+2024-12-06 17:59:35,838 - https://www.wisecx.com/: 200
+2024-12-06 17:59:36,053 - 192.168.2.221 - - [06/Dec/2024 17:59:36] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 17:59:36,089 - 192.168.2.221 - - [06/Dec/2024 17:59:36] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-06 17:59:36,090 - 192.168.2.221 - - [06/Dec/2024 17:59:36] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:59:36,095 - 192.168.2.221 - - [06/Dec/2024 17:59:36] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-06 17:59:36,121 - 192.168.2.221 - - [06/Dec/2024 17:59:36] "[36mGET /buscar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-06 22:51:01,980 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 22:51:02,070 -  * Restarting with stat
+2024-12-06 22:51:02,316 -  * Debugger is active!
+2024-12-06 22:51:02,317 -  * Debugger PIN: 536-917-777
+2024-12-06 22:54:16,550 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-06 22:54:16,550 - [33mPress CTRL+C to quit[0m
+2024-12-06 22:54:16,551 -  * Restarting with stat
+2024-12-06 22:54:16,793 -  * Debugger is active!
+2024-12-06 22:54:16,797 -  * Debugger PIN: 536-917-777
+2024-12-06 22:55:09,098 - https://www.wisecx.com/: 200
+2024-12-06 22:55:09,323 - 192.168.2.221 - - [06/Dec/2024 22:55:09] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 22:55:29,012 - https://www.wisecx.com/: 200
+2024-12-06 22:55:29,227 - 192.168.2.221 - - [06/Dec/2024 22:55:29] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 22:55:29,243 - 192.168.2.221 - - [06/Dec/2024 22:55:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-06 22:58:54,911 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 22:58:54,984 -  * Restarting with stat
+2024-12-06 22:58:55,220 -  * Debugger is active!
+2024-12-06 22:58:55,221 -  * Debugger PIN: 536-917-777
+2024-12-06 22:59:07,323 - https://www.wisecx.com/: 200
+2024-12-06 22:59:07,562 - 192.168.2.221 - - [06/Dec/2024 22:59:07] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:01:34,777 - https://www.wisecx.com/: 200
+2024-12-06 23:01:35,047 - 192.168.2.221 - - [06/Dec/2024 23:01:35] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:06:42,594 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:06:42,670 -  * Restarting with stat
+2024-12-06 23:06:42,913 -  * Debugger is active!
+2024-12-06 23:06:42,914 -  * Debugger PIN: 536-917-777
+2024-12-06 23:06:52,673 - https://www.wisecx.com/: 200
+2024-12-06 23:06:52,884 - 192.168.2.221 - - [06/Dec/2024 23:06:52] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 23:12:26,433 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 23:12:26,502 -  * Restarting with stat
+2024-12-06 23:12:26,752 -  * Debugger is active!
+2024-12-06 23:12:26,755 -  * Debugger PIN: 536-917-777
+2024-12-06 23:12:54,827 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:12:54,884 -  * Restarting with stat
+2024-12-06 23:12:55,121 -  * Debugger is active!
+2024-12-06 23:12:55,122 -  * Debugger PIN: 536-917-777
+2024-12-06 23:13:16,966 - https://www.wisecx.com/: 200
+2024-12-06 23:13:17,184 - 192.168.2.221 - - [06/Dec/2024 23:13:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:13:25,793 - 192.168.2.221 - - [06/Dec/2024 23:13:25] "GET / HTTP/1.1" 200 -
+2024-12-06 23:13:36,783 - https://www.wisecx.com/: 200
+2024-12-06 23:13:36,983 - 192.168.2.221 - - [06/Dec/2024 23:13:36] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:15:12,990 - 192.168.2.221 - - [06/Dec/2024 23:15:12] "GET / HTTP/1.1" 200 -
+2024-12-06 23:15:33,082 - https://www.wisecx.com/: 200
+2024-12-06 23:15:33,291 - 192.168.2.221 - - [06/Dec/2024 23:15:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:19:18,217 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 23:19:18,293 -  * Restarting with stat
+2024-12-06 23:19:18,545 -  * Debugger is active!
+2024-12-06 23:19:18,546 -  * Debugger PIN: 536-917-777
+2024-12-06 23:20:47,831 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:20:47,908 -  * Restarting with stat
+2024-12-06 23:20:48,144 -  * Debugger is active!
+2024-12-06 23:20:48,146 -  * Debugger PIN: 536-917-777
+2024-12-06 23:20:58,082 - https://www.wisecx.com/: 200
+2024-12-06 23:20:58,295 - 192.168.2.221 - - [06/Dec/2024 23:20:58] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 23:23:17,583 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 23:23:17,664 -  * Restarting with stat
+2024-12-06 23:23:17,924 -  * Debugger is active!
+2024-12-06 23:23:17,926 -  * Debugger PIN: 536-917-777
+2024-12-06 23:23:26,291 - https://www.wisecx.com/: 200
+2024-12-06 23:23:26,494 - 192.168.2.221 - - [06/Dec/2024 23:23:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:23:49,216 - 192.168.2.221 - - [06/Dec/2024 23:23:49] "GET / HTTP/1.1" 200 -
+2024-12-06 23:24:01,835 - https://www.wisecx.com/: 200
+2024-12-06 23:24:02,048 - 192.168.2.221 - - [06/Dec/2024 23:24:02] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:29:17,504 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:29:17,574 -  * Restarting with stat
+2024-12-06 23:29:17,813 -  * Debugger is active!
+2024-12-06 23:29:17,814 -  * Debugger PIN: 536-917-777
+2024-12-06 23:29:27,793 - https://www.wisecx.com/: 200
+2024-12-06 23:29:28,010 - 192.168.2.221 - - [06/Dec/2024 23:29:28] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 23:30:55,128 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-06 23:30:55,210 -  * Restarting with stat
+2024-12-06 23:30:55,457 -  * Debugger is active!
+2024-12-06 23:30:55,459 -  * Debugger PIN: 536-917-777
+2024-12-06 23:31:03,379 - https://www.wisecx.com/: 200
+2024-12-06 23:31:03,614 - 192.168.2.221 - - [06/Dec/2024 23:31:03] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 23:32:27,716 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:32:27,788 -  * Restarting with stat
+2024-12-06 23:32:28,101 -  * Debugger is active!
+2024-12-06 23:32:28,102 -  * Debugger PIN: 536-917-777
+2024-12-06 23:32:36,594 - https://www.wisecx.com/: 200
+2024-12-06 23:32:36,825 - 192.168.2.221 - - [06/Dec/2024 23:32:36] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-06 23:33:56,333 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:33:56,418 -  * Restarting with stat
+2024-12-06 23:33:56,650 -  * Debugger is active!
+2024-12-06 23:33:56,654 -  * Debugger PIN: 536-917-777
+2024-12-06 23:34:11,420 - https://www.wisecx.com/: 200
+2024-12-06 23:34:11,648 - 192.168.2.221 - - [06/Dec/2024 23:34:11] "POST /buscar HTTP/1.1" 200 -
+2024-12-06 23:52:02,132 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-06 23:52:02,208 -  * Restarting with stat
+2024-12-06 23:52:02,446 -  * Debugger is active!
+2024-12-06 23:52:02,448 -  * Debugger PIN: 536-917-777
+2024-12-06 23:52:17,599 - https://www.wisecx.com/: 200
+2024-12-06 23:52:17,832 - 192.168.2.221 - - [06/Dec/2024 23:52:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:00:12,238 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 00:00:12,238 - [33mPress CTRL+C to quit[0m
+2024-12-07 00:00:12,238 -  * Restarting with stat
+2024-12-07 00:00:12,480 -  * Debugger is active!
+2024-12-07 00:00:12,482 -  * Debugger PIN: 536-917-777
+2024-12-07 00:00:22,728 - https://www.wisecx.com/: 200
+2024-12-07 00:00:22,996 - 192.168.2.221 - - [07/Dec/2024 00:00:22] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:02:23,843 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 00:02:23,968 -  * Restarting with stat
+2024-12-07 00:02:24,261 -  * Debugger is active!
+2024-12-07 00:02:24,262 -  * Debugger PIN: 536-917-777
+2024-12-07 00:03:03,472 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:03:03,643 -  * Restarting with stat
+2024-12-07 00:03:04,272 -  * Debugger is active!
+2024-12-07 00:03:04,276 -  * Debugger PIN: 536-917-777
+2024-12-07 00:03:14,347 - https://www.wisecx.com/: 200
+2024-12-07 00:03:14,592 - 192.168.2.221 - - [07/Dec/2024 00:03:14] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:09:18,988 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 00:09:18,989 - [33mPress CTRL+C to quit[0m
+2024-12-07 00:09:18,989 -  * Restarting with stat
+2024-12-07 00:09:19,254 -  * Debugger is active!
+2024-12-07 00:09:19,256 -  * Debugger PIN: 536-917-777
+2024-12-07 00:16:43,907 - https://www.wisecx.com/: 200
+2024-12-07 00:16:44,163 - 192.168.2.221 - - [07/Dec/2024 00:16:44] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:17:16,524 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:17:16,584 -  * Restarting with stat
+2024-12-07 00:17:16,824 -  * Debugger is active!
+2024-12-07 00:17:16,826 -  * Debugger PIN: 536-917-777
+2024-12-07 00:17:25,348 - https://www.wisecx.com/: 200
+2024-12-07 00:17:25,579 - 192.168.2.221 - - [07/Dec/2024 00:17:25] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:19:30,152 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:19:30,223 -  * Restarting with stat
+2024-12-07 00:19:30,478 -  * Debugger is active!
+2024-12-07 00:19:30,479 -  * Debugger PIN: 536-917-777
+2024-12-07 00:19:39,278 - https://www.wisecx.com/: 200
+2024-12-07 00:19:39,519 - 192.168.2.221 - - [07/Dec/2024 00:19:39] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:20:38,708 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:20:38,779 -  * Restarting with stat
+2024-12-07 00:20:39,027 -  * Debugger is active!
+2024-12-07 00:20:39,029 -  * Debugger PIN: 536-917-777
+2024-12-07 00:20:44,341 - https://www.wisecx.com/: 200
+2024-12-07 00:20:44,569 - 192.168.2.221 - - [07/Dec/2024 00:20:44] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:22:51,431 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:22:51,497 -  * Restarting with stat
+2024-12-07 00:22:51,738 -  * Debugger is active!
+2024-12-07 00:22:51,739 -  * Debugger PIN: 536-917-777
+2024-12-07 00:22:58,815 - https://www.wisecx.com/: 200
+2024-12-07 00:22:59,044 - 192.168.2.221 - - [07/Dec/2024 00:22:59] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:24:08,947 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:24:09,013 -  * Restarting with stat
+2024-12-07 00:24:09,307 -  * Debugger is active!
+2024-12-07 00:24:09,309 -  * Debugger PIN: 536-917-777
+2024-12-07 00:24:37,417 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:24:37,475 -  * Restarting with stat
+2024-12-07 00:24:37,731 -  * Debugger is active!
+2024-12-07 00:24:37,733 -  * Debugger PIN: 536-917-777
+2024-12-07 00:24:42,648 - https://www.wisecx.com/: 200
+2024-12-07 00:24:42,902 - 192.168.2.221 - - [07/Dec/2024 00:24:42] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:25:49,936 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:25:50,004 -  * Restarting with stat
+2024-12-07 00:25:50,245 -  * Debugger is active!
+2024-12-07 00:25:50,247 -  * Debugger PIN: 536-917-777
+2024-12-07 00:25:56,778 - https://www.wisecx.com/: 200
+2024-12-07 00:25:57,017 - 192.168.2.221 - - [07/Dec/2024 00:25:57] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:26:17,882 - https://www.wisecx.com/: 200
+2024-12-07 00:26:18,146 - 192.168.2.221 - - [07/Dec/2024 00:26:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:29:32,649 - 192.168.2.221 - - [07/Dec/2024 00:29:32] "GET / HTTP/1.1" 200 -
+2024-12-07 00:29:47,951 - https://www.wisecx.com/: 200
+2024-12-07 00:29:48,180 - 192.168.2.221 - - [07/Dec/2024 00:29:48] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:32:46,241 - 192.168.2.221 - - [07/Dec/2024 00:32:46] "GET / HTTP/1.1" 200 -
+2024-12-07 00:32:56,210 - https://www.wisecx.com/: 200
+2024-12-07 00:32:56,459 - 192.168.2.221 - - [07/Dec/2024 00:32:56] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:35:45,291 - https://www.wisecx.com/: 200
+2024-12-07 00:35:45,547 - 192.168.2.221 - - [07/Dec/2024 00:35:45] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:38:40,482 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:38:40,543 -  * Restarting with stat
+2024-12-07 00:38:40,785 -  * Debugger is active!
+2024-12-07 00:38:40,786 -  * Debugger PIN: 536-917-777
+2024-12-07 00:40:10,376 - https://www.wisecx.com/: 200
+2024-12-07 00:40:10,641 - 192.168.2.221 - - [07/Dec/2024 00:40:10] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 00:43:43,660 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:43:43,728 -  * Restarting with stat
+2024-12-07 00:43:43,978 -  * Debugger is active!
+2024-12-07 00:43:43,980 -  * Debugger PIN: 536-917-777
+2024-12-07 00:44:13,839 - https://www.wisecx.com/: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-07 00:44:18,152 - http://www.wisecx.com/: 200
+2024-12-07 00:44:18,416 - 192.168.2.221 - - [07/Dec/2024 00:44:18] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:48:05,650 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:48:05,715 -  * Restarting with stat
+2024-12-07 00:48:05,962 -  * Debugger is active!
+2024-12-07 00:48:05,964 -  * Debugger PIN: 536-917-777
+2024-12-07 00:48:19,259 - https://www.wisecx.com/: 200
+2024-12-07 00:48:19,490 - 192.168.2.221 - - [07/Dec/2024 00:48:19] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 00:52:22,618 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 00:52:22,694 -  * Restarting with stat
+2024-12-07 00:52:22,937 -  * Debugger is active!
+2024-12-07 00:52:22,939 -  * Debugger PIN: 536-917-777
+2024-12-07 00:55:33,502 -  * Detected change in '/home/lucasmarnaudo/leadsai/html_extractor.py', reloading
+2024-12-07 00:55:33,569 -  * Restarting with stat
+2024-12-07 00:55:33,812 -  * Debugger is active!
+2024-12-07 00:55:33,813 -  * Debugger PIN: 536-917-777
+2024-12-07 00:57:09,081 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 00:57:09,142 -  * Restarting with stat
+2024-12-07 00:57:09,410 -  * Debugger is active!
+2024-12-07 00:57:09,411 -  * Debugger PIN: 536-917-777
+2024-12-07 00:57:51,511 - https://www.wisecx.com/: 200
+2024-12-07 00:57:51,766 - 192.168.2.221 - - [07/Dec/2024 00:57:51] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:00:18,934 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:00:19,002 -  * Restarting with stat
+2024-12-07 01:00:19,271 -  * Debugger is active!
+2024-12-07 01:00:19,272 -  * Debugger PIN: 536-917-777
+2024-12-07 01:02:17,603 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 01:02:17,683 -  * Restarting with stat
+2024-12-07 01:02:17,958 -  * Debugger is active!
+2024-12-07 01:02:17,959 -  * Debugger PIN: 536-917-777
+2024-12-07 01:03:21,158 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:03:21,227 -  * Restarting with stat
+2024-12-07 01:03:21,524 -  * Debugger is active!
+2024-12-07 01:03:21,526 -  * Debugger PIN: 536-917-777
+2024-12-07 01:04:43,783 -  * Detected change in '/home/lucasmarnaudo/leadsai/html_extractor.py', reloading
+2024-12-07 01:04:43,853 -  * Restarting with stat
+2024-12-07 01:04:44,126 -  * Debugger is active!
+2024-12-07 01:04:44,128 -  * Debugger PIN: 536-917-777
+2024-12-07 01:04:53,391 - https://www.wisecx.com/: 200
+2024-12-07 01:04:53,629 - 192.168.2.221 - - [07/Dec/2024 01:04:53] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:07:05,640 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:07:05,708 -  * Restarting with stat
+2024-12-07 01:07:06,074 -  * Debugger is active!
+2024-12-07 01:07:06,075 -  * Debugger PIN: 536-917-777
+2024-12-07 01:07:13,710 - https://www.wisecx.com/: 200
+2024-12-07 01:07:13,921 - 192.168.2.221 - - [07/Dec/2024 01:07:13] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:09:07,469 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:09:07,557 -  * Restarting with stat
+2024-12-07 01:09:07,851 -  * Debugger is active!
+2024-12-07 01:09:07,853 -  * Debugger PIN: 536-917-777
+2024-12-07 01:09:13,498 - https://www.wisecx.com/: 200
+2024-12-07 01:09:13,713 - 192.168.2.221 - - [07/Dec/2024 01:09:13] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:13:54,349 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 01:13:54,350 - [33mPress CTRL+C to quit[0m
+2024-12-07 01:13:54,350 -  * Restarting with stat
+2024-12-07 01:13:54,628 -  * Debugger is active!
+2024-12-07 01:13:54,630 -  * Debugger PIN: 536-917-777
+2024-12-07 01:14:02,242 - https://www.wisecx.com/: 200
+2024-12-07 01:14:02,478 - 192.168.2.221 - - [07/Dec/2024 01:14:02] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:22:17,094 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 01:22:17,094 - [33mPress CTRL+C to quit[0m
+2024-12-07 01:22:17,094 -  * Restarting with stat
+2024-12-07 01:22:17,358 -  * Debugger is active!
+2024-12-07 01:22:17,359 -  * Debugger PIN: 536-917-777
+2024-12-07 01:22:43,534 - https://www.wisecx.com/: 200
+2024-12-07 01:22:43,822 - 192.168.2.221 - - [07/Dec/2024 01:22:43] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:25:11,825 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:25:11,895 -  * Restarting with stat
+2024-12-07 01:25:12,254 -  * Debugger is active!
+2024-12-07 01:25:12,256 -  * Debugger PIN: 536-917-777
+2024-12-07 01:25:19,437 - https://www.wisecx.com/: 200
+2024-12-07 01:25:19,701 - 192.168.2.221 - - [07/Dec/2024 01:25:19] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:26:42,493 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:26:42,557 -  * Restarting with stat
+2024-12-07 01:26:42,842 -  * Debugger is active!
+2024-12-07 01:26:42,843 -  * Debugger PIN: 536-917-777
+2024-12-07 01:26:54,721 - https://www.wisecx.com/: 200
+2024-12-07 01:26:54,987 - 192.168.2.221 - - [07/Dec/2024 01:26:54] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:30:33,497 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:30:33,576 -  * Restarting with stat
+2024-12-07 01:30:33,830 -  * Debugger is active!
+2024-12-07 01:30:33,831 -  * Debugger PIN: 536-917-777
+2024-12-07 01:30:45,129 - https://www.wisecx.com/: 200
+2024-12-07 01:30:45,394 - 192.168.2.221 - - [07/Dec/2024 01:30:45] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:31:12,925 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:31:12,993 -  * Restarting with stat
+2024-12-07 01:31:13,340 -  * Debugger is active!
+2024-12-07 01:31:13,346 -  * Debugger PIN: 536-917-777
+2024-12-07 01:31:22,945 - https://www.wisecx.com/: 200
+2024-12-07 01:31:23,220 - 192.168.2.221 - - [07/Dec/2024 01:31:23] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:33:41,798 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 01:33:41,864 -  * Restarting with stat
+2024-12-07 01:33:42,137 -  * Debugger is active!
+2024-12-07 01:33:42,139 -  * Debugger PIN: 536-917-777
+2024-12-07 01:34:02,197 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-07 01:34:02,245 -  * Restarting with stat
+2024-12-07 01:34:02,485 -  * Debugger is active!
+2024-12-07 01:34:02,486 -  * Debugger PIN: 536-917-777
+2024-12-07 01:34:15,709 - https://www.wisecx.com/: 200
+2024-12-07 01:34:16,005 - 192.168.2.221 - - [07/Dec/2024 01:34:16] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:37:31,592 - 192.168.2.221 - - [07/Dec/2024 01:37:31] "GET / HTTP/1.1" 200 -
+2024-12-07 01:37:42,203 - http://wise.com.ar/: 200
+2024-12-07 01:37:42,501 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-07 01:37:43,501 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-07 01:37:44,502 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-07 01:37:45,502 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-07 01:37:46,503 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-07 01:37:47,503 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-07 01:37:52,033 - https://wisetraining.com.ar/: 200
+2024-12-07 01:37:52,200 - 192.168.2.221 - - [07/Dec/2024 01:37:52] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:38:37,251 - https://www.wisecx.com/: 200
+2024-12-07 01:38:37,524 - 192.168.2.221 - - [07/Dec/2024 01:38:37] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:39:33,699 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-07 01:39:33,892 - 192.168.2.221 - - [07/Dec/2024 01:39:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:40:29,497 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:40:30,499 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:40:31,534 - http://www.instagram.com/vidonbar: 200
+2024-12-07 01:40:31,904 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-07 01:40:32,905 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-07 01:40:33,905 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-07 01:40:34,908 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-07 01:40:35,908 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-07 01:40:36,908 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-07 01:40:37,217 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-07 01:40:38,218 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-07 01:40:39,219 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-07 01:40:40,220 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-07 01:40:41,220 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-07 01:40:42,220 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-07 01:40:43,172 - https://www.instagram.com/vidonbar/: 200
+2024-12-07 01:40:43,352 - 192.168.2.221 - - [07/Dec/2024 01:40:43] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:41:13,021 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:13,481 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:13,496 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:13,504 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:13,642 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:14,089 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:14,465 - 192.168.2.221 - - [07/Dec/2024 01:41:14] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:15,082 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:15,143 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:15,221 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:15,223 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:15,547 - 192.168.2.221 - - [07/Dec/2024 01:41:15] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:15,647 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:15,734 - 192.168.2.221 - - [07/Dec/2024 01:41:15] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:15,874 - 192.168.2.221 - - [07/Dec/2024 01:41:15] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:15,878 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:15,881 - 192.168.2.221 - - [07/Dec/2024 01:41:15] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:16,839 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:17,075 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:17,104 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:17,292 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:17,321 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:17,412 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:17,601 - 192.168.2.221 - - [07/Dec/2024 01:41:17] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:18,036 - 192.168.2.221 - - [07/Dec/2024 01:41:18] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:18,170 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:18,324 - 192.168.2.221 - - [07/Dec/2024 01:41:18] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:18,478 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:18,643 - 192.168.2.221 - - [07/Dec/2024 01:41:18] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:18,825 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:18,915 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:18,933 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:19,311 - 192.168.2.221 - - [07/Dec/2024 01:41:19] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:19,323 - 192.168.2.221 - - [07/Dec/2024 01:41:19] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:20,044 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:20,186 - 192.168.2.221 - - [07/Dec/2024 01:41:20] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:22,560 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:23,274 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:23,280 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:23,702 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:23,859 - 192.168.2.221 - - [07/Dec/2024 01:41:23] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:24,568 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:24,620 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:24,817 - 192.168.2.221 - - [07/Dec/2024 01:41:24] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:24,878 - 192.168.2.221 - - [07/Dec/2024 01:41:24] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:41:32,740 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-07 01:41:33,834 - https://www.instagram.com/vidonbar: 200
+2024-12-07 01:41:33,976 - 192.168.2.221 - - [07/Dec/2024 01:41:33] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 01:42:14,205 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 01:42:14,205 - [33mPress CTRL+C to quit[0m
+2024-12-07 01:42:14,206 -  * Restarting with stat
+2024-12-07 01:42:14,463 -  * Debugger is active!
+2024-12-07 01:42:14,465 -  * Debugger PIN: 536-917-777
+2024-12-07 01:42:36,722 - https://www.wisecx.com/: 200
+2024-12-07 01:42:37,005 - 192.168.2.221 - - [07/Dec/2024 01:42:37] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:42:59,942 - https://www.wisecx.com/: 200
+2024-12-07 01:43:00,203 - https://www.wisecx.com/: 200
+2024-12-07 01:43:00,245 - 192.168.2.221 - - [07/Dec/2024 01:43:00] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:00,311 - https://www.wisecx.com/: 200
+2024-12-07 01:43:00,373 - https://www.wisecx.com/: 200
+2024-12-07 01:43:00,499 - https://www.wisecx.com/: 200
+2024-12-07 01:43:00,613 - https://www.wisecx.com/: 200
+2024-12-07 01:43:01,198 - 192.168.2.221 - - [07/Dec/2024 01:43:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:01,754 - 192.168.2.221 - - [07/Dec/2024 01:43:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:01,812 - 192.168.2.221 - - [07/Dec/2024 01:43:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:01,813 - 192.168.2.221 - - [07/Dec/2024 01:43:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:01,824 - 192.168.2.221 - - [07/Dec/2024 01:43:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:43:26,892 - https://www.wisecx.com/: 200
+2024-12-07 01:43:27,202 - 192.168.2.221 - - [07/Dec/2024 01:43:27] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 01:44:18,851 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 01:44:18,851 - [33mPress CTRL+C to quit[0m
+2024-12-07 01:44:18,851 -  * Restarting with stat
+2024-12-07 01:44:19,137 -  * Debugger is active!
+2024-12-07 01:44:19,139 -  * Debugger PIN: 536-917-777
+2024-12-07 01:44:28,381 - https://www.wisecx.com/: 200
+2024-12-07 01:44:28,693 - 192.168.2.221 - - [07/Dec/2024 01:44:28] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:34:23,511 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 19:34:23,511 - [33mPress CTRL+C to quit[0m
+2024-12-07 19:34:23,511 -  * Restarting with stat
+2024-12-07 19:34:23,780 -  * Debugger is active!
+2024-12-07 19:34:23,783 -  * Debugger PIN: 101-377-596
+2024-12-07 19:34:27,797 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 19:34:27,838 -  * Restarting with stat
+2024-12-07 19:34:28,067 - Claves API cargadas exitosamente.
+2024-12-07 19:34:28,068 - Iniciando la aplicación Flask.
+2024-12-07 19:34:28,070 -  * Debugger is active!
+2024-12-07 19:34:28,071 -  * Debugger PIN: 101-377-596
+2024-12-07 19:34:44,187 - Iniciando ruta /buscar
+2024-12-07 19:34:44,187 - Palabras a buscar: ['Wisecx']
+2024-12-07 19:34:44,187 - País seleccionado: 
+2024-12-07 19:34:44,187 - Tipo de búsqueda: Web+RRSS
+2024-12-07 19:34:47,493 - Archivo HTML guardado en /var/www/html/places/ChIJ76c24t2YMpQRKEI4dKZhJ5Q.html
+2024-12-07 19:34:49,955 - https://www.wisecx.com/: 200
+2024-12-07 19:34:50,346 - Tiempo de respuesta: 6.159227132797241 segundos
+2024-12-07 19:34:50,348 - 192.168.2.221 - - [07/Dec/2024 19:34:50] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:35:26,756 - Claves API cargadas exitosamente.
+2024-12-07 19:35:26,757 - Iniciando la aplicación Flask.
+2024-12-07 19:35:26,761 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 19:35:26,761 - [33mPress CTRL+C to quit[0m
+2024-12-07 19:35:26,761 -  * Restarting with stat
+2024-12-07 19:35:27,004 - Claves API cargadas exitosamente.
+2024-12-07 19:35:27,004 - Iniciando la aplicación Flask.
+2024-12-07 19:35:27,007 -  * Debugger is active!
+2024-12-07 19:35:27,009 -  * Debugger PIN: 101-377-596
+2024-12-07 19:35:36,054 - Iniciando ruta /buscar
+2024-12-07 19:35:36,054 - Palabras a buscar: ['Wisecx']
+2024-12-07 19:35:36,054 - País seleccionado: 
+2024-12-07 19:35:36,054 - Tipo de búsqueda: Web+RRSS
+2024-12-07 19:35:39,141 - Archivo HTML guardado en /var/www/html/places/ChIJ76c24t2YMpQRKEI4dKZhJ5Q.html
+2024-12-07 19:35:41,655 - https://www.wisecx.com/: 200
+2024-12-07 19:35:41,926 - Tiempo de respuesta: 5.8725152015686035 segundos
+2024-12-07 19:35:41,927 - 192.168.2.221 - - [07/Dec/2024 19:35:41] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:41:37,367 - Claves API cargadas exitosamente.
+2024-12-07 19:41:37,367 - Iniciando la aplicación Flask.
+2024-12-07 19:41:37,372 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 19:41:37,372 - [33mPress CTRL+C to quit[0m
+2024-12-07 19:41:37,372 -  * Restarting with stat
+2024-12-07 19:41:37,646 - Claves API cargadas exitosamente.
+2024-12-07 19:41:37,647 - Iniciando la aplicación Flask.
+2024-12-07 19:41:37,650 -  * Debugger is active!
+2024-12-07 19:41:37,653 -  * Debugger PIN: 101-377-596
+2024-12-07 19:41:41,373 - Iniciando ruta /buscar
+2024-12-07 19:41:41,373 - Palabras a buscar: ['Wisecx']
+2024-12-07 19:41:41,373 - País seleccionado: 
+2024-12-07 19:41:41,373 - Tipo de búsqueda: Web+RRSS
+2024-12-07 19:41:46,202 - Archivo HTML guardado en /var/www/html/places/ChIJ76c24t2YMpQRKEI4dKZhJ5Q.html
+2024-12-07 19:41:48,653 - https://www.wisecx.com/: 200
+2024-12-07 19:41:48,926 - Tiempo de respuesta: 7.553198337554932 segundos
+2024-12-07 19:41:48,927 - 192.168.2.221 - - [07/Dec/2024 19:41:48] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:44:30,250 - Claves API cargadas exitosamente.
+2024-12-07 19:44:30,251 - Iniciando la aplicación Flask.
+2024-12-07 19:44:30,255 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 19:44:30,256 - [33mPress CTRL+C to quit[0m
+2024-12-07 19:44:30,256 -  * Restarting with stat
+2024-12-07 19:44:30,496 - Claves API cargadas exitosamente.
+2024-12-07 19:44:30,496 - Iniciando la aplicación Flask.
+2024-12-07 19:44:30,499 -  * Debugger is active!
+2024-12-07 19:44:30,501 -  * Debugger PIN: 101-377-596
+2024-12-07 19:44:35,518 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 19:44:35,565 -  * Restarting with stat
+2024-12-07 19:44:35,864 -  * Debugger is active!
+2024-12-07 19:44:35,865 -  * Debugger PIN: 101-377-596
+2024-12-07 19:44:52,058 - https://www.wisecx.com/: 200
+2024-12-07 19:44:52,330 - 192.168.2.221 - - [07/Dec/2024 19:44:52] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:44:59,495 - https://www.wisecx.com/: 200
+2024-12-07 19:44:59,764 - 192.168.2.221 - - [07/Dec/2024 19:44:59] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:45:36,622 - https://www.wisecx.com/: 200
+2024-12-07 19:45:36,945 - 192.168.2.221 - - [07/Dec/2024 19:45:36] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:46:25,947 - https://www.wisecx.com/: 200
+2024-12-07 19:46:26,287 - 192.168.2.221 - - [07/Dec/2024 19:46:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:54:10,450 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 19:54:10,525 -  * Restarting with stat
+2024-12-07 19:54:10,781 -  * Debugger is active!
+2024-12-07 19:54:10,782 -  * Debugger PIN: 101-377-596
+2024-12-07 19:54:24,869 - https://www.wisecx.com/: 200
+2024-12-07 19:54:25,129 - 192.168.2.221 - - [07/Dec/2024 19:54:25] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:54:46,181 - https://www.wisecx.com/: 200
+2024-12-07 19:54:46,471 - 192.168.2.221 - - [07/Dec/2024 19:54:46] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:54:53,105 - https://www.wisecx.com/: 200
+2024-12-07 19:54:53,366 - 192.168.2.221 - - [07/Dec/2024 19:54:53] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 19:55:05,566 - 192.168.2.221 - - [07/Dec/2024 19:55:05] "GET / HTTP/1.1" 200 -
+2024-12-07 19:55:14,727 - https://www.wisecx.com/: 200
+2024-12-07 19:55:15,087 - 192.168.2.221 - - [07/Dec/2024 19:55:15] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 21:51:01,139 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 21:51:01,231 -  * Restarting with stat
+2024-12-07 21:51:01,491 -  * Debugger is active!
+2024-12-07 21:51:01,494 -  * Debugger PIN: 101-377-596
+2024-12-07 21:51:29,049 - https://www.wisecx.com/: 200
+2024-12-07 21:51:29,318 - 192.168.2.221 - - [07/Dec/2024 21:51:29] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 21:51:43,583 - 192.168.2.221 - - [07/Dec/2024 21:51:43] "GET / HTTP/1.1" 200 -
+2024-12-07 21:51:59,143 - https://www.wisecx.com/: 200
+2024-12-07 21:51:59,422 - 192.168.2.221 - - [07/Dec/2024 21:51:59] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 22:22:35,785 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 22:22:35,870 -  * Restarting with stat
+2024-12-07 22:22:36,141 -  * Debugger is active!
+2024-12-07 22:22:36,143 -  * Debugger PIN: 101-377-596
+2024-12-07 22:22:46,185 -  * Detected change in '/home/lucasmarnaudo/leadsai/openai_helper.py', reloading
+2024-12-07 22:22:46,239 -  * Restarting with stat
+2024-12-07 22:22:46,500 -  * Debugger is active!
+2024-12-07 22:22:46,501 -  * Debugger PIN: 101-377-596
+2024-12-07 22:23:12,910 - https://www.wisecx.com/: 200
+2024-12-07 22:23:13,889 - 192.168.2.221 - - [07/Dec/2024 22:23:13] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 22:25:35,016 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 22:25:35,109 -  * Restarting with stat
+2024-12-07 22:25:35,456 -  * Debugger is active!
+2024-12-07 22:25:35,461 -  * Debugger PIN: 101-377-596
+2024-12-07 22:25:41,452 - 192.168.2.221 - - [07/Dec/2024 22:25:41] "GET / HTTP/1.1" 200 -
+2024-12-07 22:25:55,000 - https://www.wisecx.com/: 200
+2024-12-07 22:25:55,941 - 192.168.2.221 - - [07/Dec/2024 22:25:55] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 22:30:50,393 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 22:30:50,532 -  * Restarting with stat
+2024-12-07 22:30:50,808 -  * Debugger is active!
+2024-12-07 22:30:50,809 -  * Debugger PIN: 101-377-596
+2024-12-07 22:31:04,413 - https://www.wisecx.com/: 200
+2024-12-07 22:31:05,574 - 192.168.2.221 - - [07/Dec/2024 22:31:05] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 22:35:07,328 - https://www.wisecx.com/: 200
+2024-12-07 22:35:08,296 - 192.168.2.221 - - [07/Dec/2024 22:35:08] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 22:39:05,888 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 22:39:06,001 -  * Restarting with stat
+2024-12-07 22:39:06,292 -  * Debugger is active!
+2024-12-07 22:39:06,295 -  * Debugger PIN: 101-377-596
+2024-12-07 22:39:24,922 - https://www.wisecx.com/: 200
+2024-12-07 22:39:26,185 - 192.168.2.221 - - [07/Dec/2024 22:39:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 22:39:48,045 - https://www.wisecx.com/: 200
+2024-12-07 22:39:48,938 - 192.168.2.221 - - [07/Dec/2024 22:39:48] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 22:40:42,972 - https://www.wisecx.com/: 200
+2024-12-07 22:40:44,000 - 192.168.2.221 - - [07/Dec/2024 22:40:44] "POST /buscar HTTP/1.1" 200 -
+2024-12-07 22:50:38,059 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 22:50:38,162 -  * Restarting with stat
+2024-12-07 23:16:54,382 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-07 23:16:54,382 - [33mPress CTRL+C to quit[0m
+2024-12-07 23:16:54,382 -  * Restarting with stat
+2024-12-07 23:16:54,664 -  * Debugger is active!
+2024-12-07 23:16:54,666 -  * Debugger PIN: 101-377-596
+2024-12-07 23:17:09,317 - https://www.wisecx.com/: 200
+2024-12-07 23:17:10,192 - 192.168.2.221 - - [07/Dec/2024 23:17:10] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-07 23:26:15,606 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-07 23:26:15,694 -  * Restarting with stat
+2024-12-08 00:08:56,110 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 00:08:56,110 - [33mPress CTRL+C to quit[0m
+2024-12-08 00:08:56,110 -  * Restarting with stat
+2024-12-08 00:08:56,392 -  * Debugger is active!
+2024-12-08 00:08:56,394 -  * Debugger PIN: 101-377-596
+2024-12-08 00:09:31,197 - https://www.wisecx.com/: 200
+2024-12-08 00:09:32,378 - 192.168.2.221 - - [08/Dec/2024 00:09:32] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 00:26:16,534 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 00:26:16,534 - [33mPress CTRL+C to quit[0m
+2024-12-08 00:26:16,535 -  * Restarting with stat
+2024-12-08 00:26:16,843 -  * Debugger is active!
+2024-12-08 00:26:16,845 -  * Debugger PIN: 101-377-596
+2024-12-08 00:26:31,513 - 192.168.2.221 - - [08/Dec/2024 00:26:31] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-08 00:29:58,722 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-08 00:29:58,806 -  * Restarting with stat
+2024-12-08 00:29:59,080 -  * Debugger is active!
+2024-12-08 00:29:59,081 -  * Debugger PIN: 101-377-596
+2024-12-08 00:30:11,696 - https://www.wisecx.com/: 200
+2024-12-08 00:30:12,635 - 192.168.2.221 - - [08/Dec/2024 00:30:12] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 00:42:27,685 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-08 00:42:27,766 -  * Restarting with stat
+2024-12-08 00:42:33,223 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 00:42:33,223 - [33mPress CTRL+C to quit[0m
+2024-12-08 00:42:33,223 -  * Restarting with stat
+2024-12-08 00:42:33,480 -  * Debugger is active!
+2024-12-08 00:42:33,482 -  * Debugger PIN: 101-377-596
+2024-12-08 00:43:15,785 - https://www.wisecx.com/: 200
+2024-12-08 00:43:17,181 - 192.168.2.221 - - [08/Dec/2024 00:43:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 00:46:15,654 - https://www.wisecx.com/: 200
+2024-12-08 00:46:17,805 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-08 00:46:19,367 - 192.168.2.221 - - [08/Dec/2024 00:46:19] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 01:18:21,981 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 01:18:21,981 - [33mPress CTRL+C to quit[0m
+2024-12-08 01:18:21,981 -  * Restarting with stat
+2024-12-08 01:18:22,284 -  * Debugger is active!
+2024-12-08 01:18:22,286 -  * Debugger PIN: 101-377-596
+2024-12-08 01:21:24,333 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 01:21:24,333 - [33mPress CTRL+C to quit[0m
+2024-12-08 01:21:24,333 -  * Restarting with stat
+2024-12-08 01:21:24,617 -  * Debugger is active!
+2024-12-08 01:21:24,618 -  * Debugger PIN: 101-377-596
+2024-12-08 01:21:35,649 -  * Detected change in '/home/lucasmarnaudo/leadsai/social_api_helper.py', reloading
+2024-12-08 01:21:35,772 -  * Restarting with stat
+2024-12-08 01:21:36,076 -  * Debugger is active!
+2024-12-08 01:21:36,078 -  * Debugger PIN: 101-377-596
+2024-12-08 01:22:33,247 -  * Detected change in '/home/lucasmarnaudo/leadsai/html_extractor.py', reloading
+2024-12-08 01:22:33,325 -  * Restarting with stat
+2024-12-08 01:22:33,610 -  * Debugger is active!
+2024-12-08 01:22:33,613 -  * Debugger PIN: 101-377-596
+2024-12-08 01:24:59,362 - https://www.wisecx.com/: 200
+2024-12-08 01:25:04,447 - 192.168.2.221 - - [08/Dec/2024 01:25:04] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 01:26:55,702 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-08 01:26:59,766 - http://wohnwerte-hdh.de/: 403
+2024-12-08 01:27:01,445 - https://www.wohnen-am-felsen.de/: 200
+2024-12-08 01:27:04,111 - 192.168.2.221 - - [08/Dec/2024 01:27:04] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 01:29:29,206 - https://www.instagram.com/vidonbar: 200
+2024-12-08 01:29:31,433 - https://instagram.com/vidonbar?igshid=1qmw9gcmgeieq: 200
+2024-12-08 01:29:33,638 - http://www.instagram.com/vidonbar: 200
+2024-12-08 01:29:34,962 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-08 01:29:35,963 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-08 01:29:36,963 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-08 01:29:37,964 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-08 01:29:38,964 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-08 01:29:39,964 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-08 01:29:40,900 - 192.168.2.221 - - [08/Dec/2024 01:29:40] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-08 01:32:58,923 - https://maipuusados.com.ar/: 200
+2024-12-08 01:33:06,499 - https://www.maipuvolkswagen.com.ar/: 200
+2024-12-08 01:33:12,881 - http://www.maipuvolkswagen.com.ar/: 200
+2024-12-08 01:33:19,041 - https://www.maipuchevrolet.com.ar/: 200
+2024-12-08 01:33:24,947 - http://www.mundomaipu.com.ar/: 200
+2024-12-08 01:33:32,269 - http://www.maipuford.com.ar/: 200
+2024-12-08 01:33:38,146 - https://www.maipuvolkswagen.com.ar/beneficios-postventa/: 200
+2024-12-08 01:33:42,645 - https://maipuchevrolet.com.ar/taller-especializado/: 200
+2024-12-08 01:33:48,740 - https://wa.me/message/VZZAQGQJPZGKA1: 200
+2024-12-08 01:33:54,150 - http://www.mundomaipu.com.ar/: 200
+2024-12-08 01:33:59,001 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-08 01:34:00,002 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-08 01:34:01,002 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-08 01:34:02,002 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-08 01:34:03,003 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-08 01:34:04,003 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-08 01:34:04,854 - 192.168.2.221 - - [08/Dec/2024 01:34:04] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-08 01:35:30,504 - http://www.wohntraum-by-stephie.de/: 200
+2024-12-08 01:35:33,324 - 192.168.2.221 - - [08/Dec/2024 01:35:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 01:39:24,597 - https://maipuusados.com.ar/: 200
+2024-12-08 01:39:30,633 - No website found: Error en la validación (Intento 1/6) - Reintentando...
+2024-12-08 01:39:31,633 - No website found: Error en la validación (Intento 2/6) - Reintentando...
+2024-12-08 01:39:32,634 - No website found: Error en la validación (Intento 3/6) - Reintentando...
+2024-12-08 01:39:33,634 - No website found/home/: Error en la validación (Intento 4/6) - Reintentando...
+2024-12-08 01:39:34,635 - No website found/home/: Error en la validación (Intento 5/6) - Reintentando...
+2024-12-08 01:39:35,635 - No website found/home/: URL final con "." debido a múltiples fallos en la validación: Invalid URL 'No website found/home/': No scheme supplied. Perhaps you meant https://No website found/home/? (Final attempt)
+2024-12-08 01:39:38,603 - 192.168.2.221 - - [08/Dec/2024 01:39:38] "[35m[1mPOST /buscar HTTP/1.1[0m" 500 -
+2024-12-08 01:48:50,276 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 01:48:50,276 - [33mPress CTRL+C to quit[0m
+2024-12-08 01:48:50,276 -  * Restarting with stat
+2024-12-08 01:48:50,524 -  * Debugger is active!
+2024-12-08 01:48:50,526 -  * Debugger PIN: 101-377-596
+2024-12-08 01:50:04,711 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-08 01:50:04,798 -  * Restarting with stat
+2024-12-08 01:50:05,184 -  * Debugger is active!
+2024-12-08 01:50:05,185 -  * Debugger PIN: 101-377-596
+2024-12-08 01:51:03,385 - 192.168.2.221 - - [08/Dec/2024 01:51:03] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 01:56:51,172 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-08 01:56:51,172 - [33mPress CTRL+C to quit[0m
+2024-12-08 01:56:51,173 -  * Restarting with stat
+2024-12-08 01:56:51,414 -  * Debugger is active!
+2024-12-08 01:56:51,416 -  * Debugger PIN: 101-377-596
+2024-12-08 02:02:32,590 -  * Detected change in '/home/lucasmarnaudo/leadsai/app.py', reloading
+2024-12-08 02:02:32,649 -  * Restarting with stat
+2024-12-08 02:02:32,901 -  * Debugger is active!
+2024-12-08 02:02:32,903 -  * Debugger PIN: 101-377-596
+2024-12-08 02:03:07,029 - 192.168.2.221 - - [08/Dec/2024 02:03:07] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:03:52,373 - 192.168.2.221 - - [08/Dec/2024 02:03:52] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:04:08,656 - 192.168.2.221 - - [08/Dec/2024 02:04:08] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:23:56,102 - 192.168.2.221 - - [08/Dec/2024 02:23:56] "GET / HTTP/1.1" 200 -
+2024-12-08 02:24:12,196 - 192.168.2.221 - - [08/Dec/2024 02:24:12] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:24:15,386 - 192.168.2.221 - - [08/Dec/2024 02:24:15] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:25:49,211 - 192.168.2.221 - - [08/Dec/2024 02:25:49] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:54,182 - 192.168.2.221 - - [08/Dec/2024 02:25:54] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:57,601 - 192.168.2.221 - - [08/Dec/2024 02:25:57] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:58,195 - 192.168.2.221 - - [08/Dec/2024 02:25:58] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:58,378 - 192.168.2.221 - - [08/Dec/2024 02:25:58] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:58,545 - 192.168.2.221 - - [08/Dec/2024 02:25:58] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:58,661 - 192.168.2.221 - - [08/Dec/2024 02:25:58] "GET / HTTP/1.1" 200 -
+2024-12-08 02:25:58,828 - 192.168.2.221 - - [08/Dec/2024 02:25:58] "GET / HTTP/1.1" 200 -
+2024-12-08 02:26:20,264 - 192.168.2.221 - - [08/Dec/2024 02:26:20] "GET / HTTP/1.1" 200 -
+2024-12-08 02:26:35,140 - 192.168.2.221 - - [08/Dec/2024 02:26:35] "POST /buscar HTTP/1.1" 200 -
+2024-12-08 02:27:35,871 - 192.168.2.221 - - [08/Dec/2024 02:27:35] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:24:39,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-09 15:24:39,648 - [33mPress CTRL+C to quit[0m
+2024-12-09 15:24:39,648 -  * Restarting with stat
+2024-12-09 15:24:39,902 -  * Debugger is active!
+2024-12-09 15:24:39,903 -  * Debugger PIN: 505-537-922
+2024-12-09 15:25:03,290 - 192.168.2.221 - - [09/Dec/2024 15:25:03] "GET / HTTP/1.1" 200 -
+2024-12-09 15:25:05,134 - 192.168.2.221 - - [09/Dec/2024 15:25:05] "GET / HTTP/1.1" 200 -
+2024-12-09 15:25:26,776 - 192.168.2.221 - - [09/Dec/2024 15:25:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:27:08,853 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-09 15:27:08,853 - [33mPress CTRL+C to quit[0m
+2024-12-09 15:27:08,856 -  * Restarting with stat
+2024-12-09 15:27:09,124 -  * Debugger is active!
+2024-12-09 15:27:09,126 -  * Debugger PIN: 505-537-922
+2024-12-09 15:27:29,056 - 192.168.2.221 - - [09/Dec/2024 15:27:29] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:29:49,022 - 192.168.2.221 - - [09/Dec/2024 15:29:49] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:30:18,122 - 192.168.2.221 - - [09/Dec/2024 15:30:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:36:24,956 - 192.168.2.221 - - [09/Dec/2024 15:36:24] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:37:00,579 - 192.168.2.221 - - [09/Dec/2024 15:37:00] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:38:16,467 - 192.168.2.221 - - [09/Dec/2024 15:38:16] "POST /buscar HTTP/1.1" 200 -
+2024-12-09 15:41:28,571 - 192.168.2.221 - - [09/Dec/2024 15:41:28] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 12:41:18,426 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-10 12:41:18,426 - [33mPress CTRL+C to quit[0m
+2024-12-10 12:41:18,427 -  * Restarting with stat
+2024-12-10 12:41:18,684 -  * Debugger is active!
+2024-12-10 12:41:18,687 -  * Debugger PIN: 536-917-777
+2024-12-10 12:41:34,799 - 192.168.2.221 - - [10/Dec/2024 12:41:34] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 12:42:21,392 - 192.168.2.221 - - [10/Dec/2024 12:42:21] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 12:45:18,063 - 192.168.2.221 - - [10/Dec/2024 12:45:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 12:45:59,770 - 192.168.2.221 - - [10/Dec/2024 12:45:59] "GET / HTTP/1.1" 200 -
+2024-12-10 12:47:08,931 - 192.168.2.221 - - [10/Dec/2024 12:47:08] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:19:59,372 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-10 21:19:59,372 - [33mPress CTRL+C to quit[0m
+2024-12-10 21:19:59,372 -  * Restarting with stat
+2024-12-10 21:19:59,629 -  * Debugger is active!
+2024-12-10 21:19:59,632 -  * Debugger PIN: 536-917-777
+2024-12-10 21:21:45,928 - 192.168.2.221 - - [10/Dec/2024 21:21:45] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:27:30,128 - 192.168.2.221 - - [10/Dec/2024 21:27:30] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:29:10,184 - 192.168.2.221 - - [10/Dec/2024 21:29:10] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:30:05,324 - 192.168.2.221 - - [10/Dec/2024 21:30:05] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:31:20,533 - 192.168.2.221 - - [10/Dec/2024 21:31:20] "POST /buscar HTTP/1.1" 200 -
+2024-12-10 21:33:51,999 - 192.168.2.221 - - [10/Dec/2024 21:33:51] "GET / HTTP/1.1" 200 -
+2024-12-10 21:34:17,902 - 192.168.2.221 - - [10/Dec/2024 21:34:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-12 13:32:45,470 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-12 13:32:45,470 - [33mPress CTRL+C to quit[0m
+2024-12-12 13:32:45,470 -  * Restarting with stat
+2024-12-12 13:32:45,745 -  * Debugger is active!
+2024-12-12 13:32:45,748 -  * Debugger PIN: 256-109-486
+2024-12-12 13:35:01,000 - 192.168.2.225 - - [12/Dec/2024 13:35:01] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 14:40:12,329 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-17 14:40:12,329 - [33mPress CTRL+C to quit[0m
+2024-12-17 14:40:12,330 -  * Restarting with stat
+2024-12-17 14:40:12,628 -  * Debugger is active!
+2024-12-17 14:40:12,633 -  * Debugger PIN: 536-917-777
+2024-12-17 14:40:16,868 - 192.168.2.221 - - [17/Dec/2024 14:40:16] "GET / HTTP/1.1" 200 -
+2024-12-17 14:40:18,504 - 192.168.2.221 - - [17/Dec/2024 14:40:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 14:40:32,353 - 192.168.2.221 - - [17/Dec/2024 14:40:32] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 14:48:44,280 - 192.168.2.221 - - [17/Dec/2024 14:48:44] "GET / HTTP/1.1" 200 -
+2024-12-17 14:54:04,496 - 192.168.2.221 - - [17/Dec/2024 14:54:04] "GET / HTTP/1.1" 200 -
+2024-12-17 14:54:24,344 - 192.168.2.221 - - [17/Dec/2024 14:54:24] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 14:59:25,907 - 192.168.2.221 - - [17/Dec/2024 14:59:25] "GET / HTTP/1.1" 200 -
+2024-12-17 15:04:15,101 - 192.168.2.221 - - [17/Dec/2024 15:04:15] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:11:18,899 - 192.168.2.221 - - [17/Dec/2024 15:11:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:13:51,783 - 192.168.2.221 - - [17/Dec/2024 15:13:51] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:16:11,872 - 192.168.2.221 - - [17/Dec/2024 15:16:11] "GET / HTTP/1.1" 200 -
+2024-12-17 15:16:30,402 - 192.168.2.221 - - [17/Dec/2024 15:16:30] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:17:17,854 - 192.168.2.221 - - [17/Dec/2024 15:17:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:17:40,246 - 192.168.2.221 - - [17/Dec/2024 15:17:40] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:19:18,604 - 192.168.2.221 - - [17/Dec/2024 15:19:18] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:19:30,009 - 192.168.2.221 - - [17/Dec/2024 15:19:30] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:20:08,127 - 192.168.2.221 - - [17/Dec/2024 15:20:08] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:31:14,255 - 192.168.2.221 - - [17/Dec/2024 15:31:14] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:34:31,287 - 192.168.2.221 - - [17/Dec/2024 15:34:31] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:37:47,577 - 192.168.2.221 - - [17/Dec/2024 15:37:47] "GET / HTTP/1.1" 200 -
+2024-12-17 15:43:02,530 - 192.168.2.221 - - [17/Dec/2024 15:43:02] "POST /buscar HTTP/1.1" 200 -
+2024-12-17 15:46:56,638 - 192.168.2.221 - - [17/Dec/2024 15:46:56] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 10:28:58,326 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-18 10:28:58,326 - [33mPress CTRL+C to quit[0m
+2024-12-18 10:28:58,327 -  * Restarting with stat
+2024-12-18 10:28:58,592 -  * Debugger is active!
+2024-12-18 10:28:58,595 -  * Debugger PIN: 536-917-777
+2024-12-18 10:29:02,515 - 192.168.2.221 - - [18/Dec/2024 10:29:02] "GET / HTTP/1.1" 200 -
+2024-12-18 10:29:24,197 - 192.168.2.221 - - [18/Dec/2024 10:29:24] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 10:30:48,734 - 192.168.2.221 - - [18/Dec/2024 10:30:48] "GET / HTTP/1.1" 200 -
+2024-12-18 10:48:26,566 - 192.168.2.221 - - [18/Dec/2024 10:48:26] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 10:48:51,681 - 192.168.2.221 - - [18/Dec/2024 10:48:51] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 10:49:15,214 - 192.168.2.221 - - [18/Dec/2024 10:49:15] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 10:57:42,443 - 192.168.2.221 - - [18/Dec/2024 10:57:42] "GET / HTTP/1.1" 200 -
+2024-12-18 11:04:09,031 - 192.168.2.221 - - [18/Dec/2024 11:04:09] "POST /buscar HTTP/1.1" 200 -
+2024-12-18 14:14:54,163 - 192.168.2.221 - - [18/Dec/2024 14:14:54] "GET / HTTP/1.1" 200 -
+2024-12-18 15:08:27,527 - 192.168.2.221 - - [18/Dec/2024 15:08:27] "GET / HTTP/1.1" 200 -
+2024-12-18 15:20:33,272 - 192.168.2.221 - - [18/Dec/2024 15:20:33] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 13:30:53,415 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-19 13:30:53,415 - [33mPress CTRL+C to quit[0m
+2024-12-19 13:30:53,416 -  * Restarting with stat
+2024-12-19 13:30:53,681 -  * Debugger is active!
+2024-12-19 13:30:53,683 -  * Debugger PIN: 536-917-777
+2024-12-19 13:30:59,868 - 192.168.2.221 - - [19/Dec/2024 13:30:59] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:05,120 - 192.168.2.221 - - [19/Dec/2024 13:31:05] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:06,890 - 192.168.2.221 - - [19/Dec/2024 13:31:06] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:08,839 - 192.168.2.221 - - [19/Dec/2024 13:31:08] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:20,572 - 192.168.2.221 - - [19/Dec/2024 13:31:20] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:28,683 - 192.168.2.221 - - [19/Dec/2024 13:31:28] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:30,199 - 192.168.2.221 - - [19/Dec/2024 13:31:30] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:30,850 - 192.168.2.221 - - [19/Dec/2024 13:31:30] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:31,101 - 192.168.2.221 - - [19/Dec/2024 13:31:31] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:31,266 - 192.168.2.221 - - [19/Dec/2024 13:31:31] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:31,450 - 192.168.2.221 - - [19/Dec/2024 13:31:31] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:35,881 - 192.168.2.221 - - [19/Dec/2024 13:31:35] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:40,787 - 192.168.2.221 - - [19/Dec/2024 13:31:40] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:43,204 - 192.168.2.221 - - [19/Dec/2024 13:31:43] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:43,720 - 192.168.2.221 - - [19/Dec/2024 13:31:43] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:43,898 - 192.168.2.221 - - [19/Dec/2024 13:31:43] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:44,032 - 192.168.2.221 - - [19/Dec/2024 13:31:44] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:44,183 - 192.168.2.221 - - [19/Dec/2024 13:31:44] "GET / HTTP/1.1" 200 -
+2024-12-19 13:31:50,785 - 192.168.2.221 - - [19/Dec/2024 13:31:50] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:31:59,532 - 192.168.2.221 - - [19/Dec/2024 13:31:59] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:00,332 - 192.168.2.221 - - [19/Dec/2024 13:32:00] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:00,498 - 192.168.2.221 - - [19/Dec/2024 13:32:00] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:00,649 - 192.168.2.221 - - [19/Dec/2024 13:32:00] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:00,822 - 192.168.2.221 - - [19/Dec/2024 13:32:00] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:00,964 - 192.168.2.221 - - [19/Dec/2024 13:32:00] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:01,115 - 192.168.2.221 - - [19/Dec/2024 13:32:01] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:22,868 - 192.168.2.221 - - [19/Dec/2024 13:32:22] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 13:32:53,438 - 192.168.2.221 - - [19/Dec/2024 13:32:53] "GET / HTTP/1.1" 200 -
+2024-12-19 13:33:07,570 - 192.168.2.221 - - [19/Dec/2024 13:33:07] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 14:38:49,022 - 192.168.2.221 - - [19/Dec/2024 14:38:49] "GET / HTTP/1.1" 200 -
+2024-12-19 14:39:04,503 - 192.168.2.221 - - [19/Dec/2024 14:39:04] "GET / HTTP/1.1" 200 -
+2024-12-19 14:39:21,503 - 192.168.2.221 - - [19/Dec/2024 14:39:21] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 14:49:22,912 - 192.168.2.221 - - [19/Dec/2024 14:49:22] "GET / HTTP/1.1" 200 -
+2024-12-19 14:49:28,579 - 192.168.2.221 - - [19/Dec/2024 14:49:28] "GET / HTTP/1.1" 200 -
+2024-12-19 14:49:36,883 - 192.168.2.221 - - [19/Dec/2024 14:49:36] "[33mPOST /search HTTP/1.1[0m" 404 -
+2024-12-19 14:53:18,017 - 192.168.2.221 - - [19/Dec/2024 14:53:18] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:32,969 - 192.168.2.221 - - [19/Dec/2024 14:59:32] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:34,320 - 192.168.2.221 - - [19/Dec/2024 14:59:34] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:35,103 - 192.168.2.221 - - [19/Dec/2024 14:59:35] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:35,690 - 192.168.2.221 - - [19/Dec/2024 14:59:35] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:36,237 - 192.168.2.221 - - [19/Dec/2024 14:59:36] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:36,672 - 192.168.2.221 - - [19/Dec/2024 14:59:36] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:36,854 - 192.168.2.221 - - [19/Dec/2024 14:59:36] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:37,036 - 192.168.2.221 - - [19/Dec/2024 14:59:37] "GET / HTTP/1.1" 200 -
+2024-12-19 14:59:37,643 - 192.168.2.221 - - [19/Dec/2024 14:59:37] "GET / HTTP/1.1" 200 -
+2024-12-19 15:00:12,270 - 192.168.2.221 - - [19/Dec/2024 15:00:12] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 15:15:22,891 - 192.168.2.221 - - [19/Dec/2024 15:15:22] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:34,019 - 192.168.2.221 - - [19/Dec/2024 15:16:34] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:34,356 - 192.168.2.221 - - [19/Dec/2024 15:16:34] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:35,122 - 192.168.2.221 - - [19/Dec/2024 15:16:35] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:35,810 - 192.168.2.221 - - [19/Dec/2024 15:16:35] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:36,124 - 192.168.2.221 - - [19/Dec/2024 15:16:36] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:36,572 - 192.168.2.221 - - [19/Dec/2024 15:16:36] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:36,757 - 192.168.2.221 - - [19/Dec/2024 15:16:36] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:36,907 - 192.168.2.221 - - [19/Dec/2024 15:16:36] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:37,073 - 192.168.2.221 - - [19/Dec/2024 15:16:37] "GET / HTTP/1.1" 200 -
+2024-12-19 15:16:37,249 - 192.168.2.221 - - [19/Dec/2024 15:16:37] "GET / HTTP/1.1" 200 -
+2024-12-19 15:18:42,140 - 192.168.2.221 - - [19/Dec/2024 15:18:42] "GET / HTTP/1.1" 200 -
+2024-12-19 15:18:43,390 - 192.168.2.221 - - [19/Dec/2024 15:18:43] "GET / HTTP/1.1" 200 -
+2024-12-19 15:19:41,153 - 192.168.2.221 - - [19/Dec/2024 15:19:41] "GET / HTTP/1.1" 200 -
+2024-12-19 15:27:48,918 - 192.168.2.221 - - [19/Dec/2024 15:27:48] "GET / HTTP/1.1" 200 -
+2024-12-19 15:28:12,931 - 192.168.2.221 - - [19/Dec/2024 15:28:12] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 15:33:38,188 - 192.168.2.221 - - [19/Dec/2024 15:33:38] "GET / HTTP/1.1" 200 -
+2024-12-19 15:33:54,848 - 192.168.2.221 - - [19/Dec/2024 15:33:54] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 15:40:01,895 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-19 15:40:01,985 -  * Restarting with stat
+2024-12-19 15:40:02,429 -  * Debugger is active!
+2024-12-19 15:40:02,431 -  * Debugger PIN: 536-917-777
+2024-12-19 15:40:21,535 - 192.168.2.221 - - [19/Dec/2024 15:40:21] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 15:42:55,088 -  * Detected change in '/home/lucasmarnaudo/leadsai/response_formatter.py', reloading
+2024-12-19 15:42:55,167 -  * Restarting with stat
+2024-12-19 15:42:55,438 -  * Debugger is active!
+2024-12-19 15:42:55,439 -  * Debugger PIN: 536-917-777
+2024-12-19 15:48:06,944 - 192.168.2.221 - - [19/Dec/2024 15:48:06] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 16:11:38,947 - 192.168.2.221 - - [19/Dec/2024 16:11:38] "GET / HTTP/1.1" 200 -
+2024-12-19 16:11:42,394 - 192.168.2.221 - - [19/Dec/2024 16:11:42] "GET / HTTP/1.1" 200 -
+2024-12-19 16:11:42,829 - 192.168.2.221 - - [19/Dec/2024 16:11:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-19 16:14:53,489 - 217.83.36.133 - - [19/Dec/2024 16:14:53] "GET / HTTP/1.1" 200 -
+2024-12-19 16:14:54,302 - 217.83.36.133 - - [19/Dec/2024 16:14:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-19 16:15:17,963 - 217.83.36.133 - - [19/Dec/2024 16:15:17] "POST /buscar HTTP/1.1" 200 -
+2024-12-19 16:15:59,463 - 217.83.36.133 - - [19/Dec/2024 16:15:59] "POST /buscar HTTP/1.1" 200 -
+2024-12-20 13:15:27,871 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.228:5000
+2024-12-20 13:15:27,871 - [33mPress CTRL+C to quit[0m
+2024-12-20 13:15:27,872 -  * Restarting with stat
+2024-12-20 13:15:28,127 -  * Debugger is active!
+2024-12-20 13:15:28,130 -  * Debugger PIN: 536-917-777
+2024-12-20 13:17:50,575 - 192.168.2.225 - - [20/Dec/2024 13:17:50] "GET / HTTP/1.1" 200 -
+2024-12-20 13:18:10,472 - 192.168.2.225 - - [20/Dec/2024 13:18:10] "POST /buscar HTTP/1.1" 200 -
+2024-12-20 13:19:00,019 - 192.168.2.225 - - [20/Dec/2024 13:19:00] "POST /buscar HTTP/1.1" 200 -

@@ -1,0 +1,175 @@
+import requests
+import json
+import db_config
+import time
+import subprocess  # Importar subprocess para ejecutar scripts externos
+from flask import Flask, request, jsonify, render_template
+from openai_helper import obtener_descripcion, analizar_resenas
+from url_checker import validar_url  # Importar la función del archivo independiente
+from html_downloader import descargar_html  # Importar la función del archivo independiente
+from requests.exceptions import HTTPError
+
+app = Flask(__name__)
+
+def load_api_keys():
+    # Cargar claves de API desde el archivo keys.data
+    print("Cargando claves de API...")
+    keys = {}
+    with open('keys.data', 'r') as file:
+        for line in file:
+            key, value = line.strip().split(' = ')
+            keys[key.strip()] = value.strip('\'')
+    print("Claves de API cargadas.")
+    return keys
+
+keys = load_api_keys()
+openai_api_key = keys['openai.api_key']
+google_maps_api_key = keys['google_maps_api_key']
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/buscar', methods=['POST'])
+def buscar():
+    start_time = time.time()  # Registrar el tiempo de inicio del proceso
+    print("Procesando solicitud /buscar")
+    if request.is_json:
+        data = request.get_json()
+        query = data.get('palabra', '')
+        tipo_busqueda = data.get('tipo_busqueda', 'Full')
+    else:
+        query = request.form['palabra']
+        tipo_busqueda = request.form['tipo_busqueda']
+
+    print(f"Palabra recibida: {query}")
+    print(f"Tipo de búsqueda: {tipo_busqueda}")
+    
+    num_caracteres = len(query)
+    print(f"Número de caracteres: {num_caracteres}")
+
+    descripcion = ""
+    if tipo_busqueda in ['Full', 'Web+RRSS']:
+        # Llamada a OpenAI para obtener la descripción
+        if tipo_busqueda == 'Full':
+            print("Obteniendo descripción de OpenAI...")
+            descripcion = obtener_descripcion(query, openai_api_key)
+            print("Descripción obtenida de OpenAI.")
+
+    # Primera llamada a la API Places de Google para obtener Place IDs
+    print("Llamando a Places API para obtener Place IDs...")
+    search_url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+    params = {
+        "query": query,
+        "key": google_maps_api_key
+    }
+    search_response = requests.get(search_url, params=params)
+    search_data = search_response.json()
+    print("Place IDs obtenidos de la Text Search API:", search_data)
+
+    places = search_data.get('results', [])
+    places_count = len(places)
+
+    connection, cursor = db_config.connect()
+    analisis_resenas = []
+    checked_url = ""
+    html_file_path = ""
+
+    for place in places:
+        place_id = place.get('place_id')
+        print(f"Procesando Place ID: {place_id}")
+        
+        # Segunda llamada a Place Details API
+        print("Llamando a Place Details API para obtener detalles del lugar...")
+        details_url = f"https://maps.googleapis.com/maps/api/place/details/json?place_id={place_id}&fields=name,formatted_address,types,rating,website,reviews,url&key={google_maps_api_key}"
+        details_response = requests.get(details_url)
+        details_data = details_response.json().get('result', {})
+        print("Detalles obtenidos de la Place Details API:", details_data)
+        
+        name = details_data.get('name')
+        address = details_data.get('formatted_address')
+        types = json.dumps(details_data.get('types', []))
+        reviews = json.dumps(details_data.get('reviews', []))
+        google_maps_uri = details_data.get('url', 'No URL found')
+        website = details_data.get('website', 'No website found')
+        json_file_path = f"/var/www/html/places/{place_id}.json"
+
+        # Validar la URL del sitio web
+        print(f"Validando URL del sitio web: {website}")
+        checked_url = validar_url(website)
+        print(f"URL validada: {checked_url}")
+
+        if tipo_busqueda in ['Full', 'Web+RRSS']:
+            # Descargar el código HTML de la página web con manejo de errores
+            try:
+                print(f"Descargando código HTML de la página web: {checked_url}")
+                html_file_path = descargar_html(place_id, checked_url)
+                print(f"Código HTML guardado en: {html_file_path}")
+            except HTTPError as http_err:
+                print(f"Error al descargar HTML: {http_err}")
+                html_file_path = None
+
+            # Solo ejecutar html_extractor.py si se pudo descargar el HTML
+            if html_file_path:
+                print(f"Ejecutando html_extractor.py para extraer información adicional del archivo HTML.")
+                subprocess.run(['python', 'html_extractor.py', html_file_path])
+            else:
+                print("No se pudo descargar el HTML, omitiendo la extracción de información adicional.")
+
+        # Guardar detalles en la base de datos
+        print("Guardando detalles en la base de datos...")
+        cursor.execute("""
+            INSERT INTO places_details (place_id, name, address, types, reviews, query_text, timestamp, google_maps_uri, website, checkedURL, html_file_path, formatted_address, json_file_path, tipo_busqueda)
+            VALUES (%s, %s, %s, %s, %s, %s, NOW(), %s, %s, %s, %s, %s, %s, %s)
+        """, (place_id, name, address, types, reviews, query, google_maps_uri, website, checked_url, html_file_path, address, json_file_path, tipo_busqueda))
+        connection.commit()
+        print("Detalles guardados en la base de datos.")
+
+        # Guardar detalles en el archivo JSON
+        print("Guardando detalles en el archivo JSON...")
+        with open(json_file_path, 'w') as f:
+            json.dump(details_data, f, indent=4)
+        print("Detalles guardados en el archivo JSON.")
+
+        if tipo_busqueda == 'Full':
+            # Enviar el JSON a OpenAI para análisis
+            print("Enviando JSON a OpenAI para análisis...")
+            analisis = analizar_resenas(reviews, openai_api_key)
+            analisis_resenas.append({
+                'place_id': place_id,
+                'analisis': analisis
+            })
+            print("Análisis completado por OpenAI.")
+
+    cursor.close()
+    connection.close()
+    print("Conexión a la base de datos cerrada.")
+    
+    end_time = time.time()  # Registrar el tiempo de finalización del proceso
+    tiempo_respuesta = end_time - start_time  # Calcular el tiempo total de respuesta
+    print(f"Tiempo de respuesta: {tiempo_respuesta} segundos")
+    
+    resultado = {
+        'caracteres': num_caracteres,
+        'descripcion': descripcion,
+        'analisis_resenas': analisis_resenas,
+        'checkedURL': checked_url,
+        'html_file_path': html_file_path,
+        'places': places,
+        'places_count': places_count,
+        'tipo_busqueda': tipo_busqueda,
+        'tiempo_respuesta': tiempo_respuesta,
+        'respuesta': f'Detalles guardados para los lugares buscados con la palabra {query}'
+    }
+
+    if request.is_json:
+        print("Respondiendo con JSON...")
+        return jsonify(resultado)
+    else:
+        print("Renderizando plantilla con el resultado...")
+        return render_template('index.html', resultado=json.dumps(resultado, indent=4))
+
+if __name__ == '__main__':
+    print("Iniciando aplicación Flask...")
+    app.run(host='0.0.0.0', port=5000, debug=True)
+    print("Aplicación Flask iniciada.")

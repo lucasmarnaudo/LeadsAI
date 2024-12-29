@@ -1,0 +1,25 @@
+# Archivos compilados
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de configuración IDE
+.idea/
+.vscode/
+
+# Archivos de variables de entorno
+.env
+*.data
+leadsai/
+mi_script.py
+test.py
+leadsaiBKP/
+leadsaiBKP/leadsai/keys.data
+mi_script.py
+test.py

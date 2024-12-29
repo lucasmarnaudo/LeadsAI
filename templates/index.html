@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <title>Search Results</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="h-full bg-gradient-to-br from-blue-100 to-purple-100">
+    <div class="min-h-full">
+        <nav class="bg-gradient-to-r from-indigo-600 to-purple-600 shadow-lg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex">
+                        <div class="flex-shrink-0 flex items-center">
+                            <h1 class="text-2xl font-bold text-white">Advanced Search</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="py-10">
+            <main>
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <!-- Company/Product Profile Section -->
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="text-xl font-semibold text-gray-900 mb-6 border-b pb-4">Company/Product Profile</h2>
+                            <div class="space-y-6">
+                                <div>
+                                    <label for="product_description"
+                                        class="block text-sm font-medium text-gray-700">Product or Service
+                                        Description</label>
+                                    <div class="mt-1">
+                                        <textarea id="product_description" name="product_description" rows="3"
+											class="shadow-sm focus:ring-purple-500 focus:border-purple-500 block w-full sm:text-sm border-gray-300 rounded-md resize-none"
+                                    		placeholder="Provide a general description of the product or service. Example: 'Customer experience platform with an Outbound tool.'"></textarea>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="problems_description" class="block text-sm font-medium text-gray-700">Problems and Solutions</label>
+                                    <div class="mt-1">
+                                        <textarea id="problems_description" name="problems_description" rows="3" class="shadow-sm focus:ring-purple-500 focus:border-purple-500 block w-full sm:text-sm border-gray-300 rounded-md resize-none"
+                                    		placeholder="Describe the problems you aim to solve and how you plan to address them. Example: 'Reaching customers through multiple channels to maximize contactability.'"></textarea>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="result" class="block text-sm font-medium text-gray-700">Result</label>
+                                    <div class="mt-1">
+                                        <textarea id="result" name="result" rows="3"
+                                            class="shadow-sm focus:ring-purple-500 focus:border-purple-500 block w-full sm:text-sm border-gray-300 rounded-md resize-none"
+                                            placeholder="Enter the expected results after implementing the solution."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Search Parameters Section -->
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="text-xl font-semibold text-gray-900 mb-6 border-b pb-4">Search Parameters</h2>
+                            <form onsubmit="event.preventDefault(); buscar();" class="space-y-6">
+                                <div>
+                                    <label for="palabras" class="block text-sm font-medium text-gray-700">Keywords</label>
+                                    <div class="mt-1">
+                                        <textarea id="palabras" name="palabras" rows="4"
+                                          class="shadow-sm focus:ring-purple-500 focus:border-purple-500 block w-full sm:text-sm border-gray-300 rounded-md resize-none"
+                                            placeholder="Enter search keywords..."></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                                    <div>
+                                        <label for="pais" class="block text-sm font-medium text-gray-700">Country</label>
+                                        <select id="pais" name="pais"
+                                            class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Chile">Chile</option>
+                                            <option value="Colombia">Colombia</option>
+                                            <option value="España">España</option>
+                                            <option value="México">México</option>
+                                            <option value="Perú">Perú</option>
+                                            <option value="Germany">Germany</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label for="tipo_busqueda" class="block text-sm font-medium text-gray-700">Search
+                                            Type</label>
+                                        <select id="tipo_busqueda" name="tipo_busqueda"
+                                            class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
+                                            <option value="Full">Full</option>
+                                            <option value="Web+RRSS">Web + Social</option>
+                                            <option value="Solo Web">Web Only</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="flex justify-end">
+                                    <button id="searchButton" type="submit"
+                                        class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transform transition hover:scale-105">
+                                        Search
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Results Section -->
+                    <div class="mt-8">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-4">Results:</h2>
+                        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                            <div id="resultados" class="divide-y divide-gray-200"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        async function buscar() {
+            // Get the button element
+            const searchButton = document.getElementById("searchButton");
+            
+            // Disable button and change its text
+            searchButton.disabled = true;
+            searchButton.textContent = "Processing...";
+            
+            const palabras = document.getElementById("palabras").value;
+            const pais = document.getElementById("pais").value;
+            const tipo_busqueda = document.getElementById("tipo_busqueda").value;
+            const product_description = document.getElementById("product_description").value;
+            const problems_description = document.getElementById("problems_description").value;
+            const result = document.getElementById("result").value;
+            
+            try {
+                const response = await fetch('/buscar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        palabras, 
+                        pais, 
+                        tipo_busqueda,
+                        product_description,
+                        problems_description,
+                        result
+                    }),
+                });
+                const data = await response.json();
+                mostrarResultados(data.datos);
+            } catch (error) {
+                console.error('Error:', error);
+                mostrarError('An error occurred while processing your search. Please try again.');
+            } finally {
+                // Re-enable button and change its text back to "Search"
+                searchButton.disabled = false;
+                searchButton.textContent = "Search";
+            }
+        }
+
+        function mostrarResultados(datos) {
+            const container = document.getElementById("resultados");
+            container.innerHTML = "";
+            
+            Object.entries(datos).forEach(([key, value]) => {
+                const div = document.createElement("div");
+                div.className = "px-6 py-4 hover:bg-gray-50 fade-in";
+                
+                const keyEl = document.createElement("dt");
+                keyEl.className = "text-sm font-medium text-gray-500";
+                keyEl.textContent = key;
+                
+                const valueEl = document.createElement("dd");
+                valueEl.className = "mt-1 text-sm text-gray-900";
+                valueEl.textContent = Array.isArray(value) ? value.join(", ") : value;
+                
+                div.appendChild(keyEl);
+                div.appendChild(valueEl);
+                container.appendChild(div);
+            });
+        }
+
+        function mostrarError(mensaje) {
+            const container = document.getElementById("resultados");
+            container.innerHTML = `
+                <div class="px-6 py-4 text-red-600">
+                    ${mensaje}
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
